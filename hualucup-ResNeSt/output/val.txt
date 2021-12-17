@@ -1,0 +1,1 @@
+epoch: 001 | Accuracy= 77.142% | loss= 1.426

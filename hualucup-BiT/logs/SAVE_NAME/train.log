@@ -1,0 +1,8 @@
+2020-11-24 08:15:01,039 [INFO] bit_common: Namespace(base_lr=0.0007, batch=32, batch_split=1, bit_pretrained_dir='.', datadir='./data', dataset='sc', eval_every=10, examples_per_class=None, examples_per_class_seed=0, logdir='./logs', model='BiT-M-R101x1', name='SAVE_NAME', save='True', workers=8)
+2020-11-24 08:15:01,551 [INFO] bit_common: Going to train on cuda:0
+2020-11-24 08:15:01,582 [INFO] bit_common: Using a training set with 6479 images.
+2020-11-24 08:15:01,583 [INFO] bit_common: Using a validation set with 721 images.
+2020-11-24 08:15:01,583 [INFO] bit_common: Loading model from BiT-M-R101x1.npz
+2020-11-24 08:15:02,261 [INFO] bit_common: Moving model onto all GPUs
+2020-11-24 08:15:02,269 [INFO] bit_common: Model will be saved in './logs/SAVE_NAME/bit.pth.tar'
+2020-11-24 08:15:02,269 [INFO] bit_common: Fine-tuning from BiT

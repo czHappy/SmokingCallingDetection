@@ -1,0 +1,1823 @@
+2020-11-12 11:08:57,265 [INFO] bit_common: Namespace(base_lr=0.0007, batch=32, batch_split=1, bit_pretrained_dir='.', datadir='./data', dataset='sc', eval_every=10, examples_per_class=None, examples_per_class_seed=0, logdir='./logs', model='BiT-M-R101x1', name='20201112-t1', save='True', workers=8)
+2020-11-12 11:08:58,462 [INFO] bit_common: Going to train on cuda:0
+2020-11-12 11:08:58,482 [INFO] bit_common: Using a training set with 6479 images.
+2020-11-12 11:08:58,482 [INFO] bit_common: Using a validation set with 721 images.
+2020-11-12 11:08:58,482 [INFO] bit_common: Loading model from BiT-M-R101x1.npz
+2020-11-12 11:08:59,186 [INFO] bit_common: Moving model onto all GPUs
+2020-11-12 11:08:59,203 [INFO] bit_common: Model will be saved in './logs/20201112-t1/bit.pth.tar'
+2020-11-12 11:08:59,204 [INFO] bit_common: Fine-tuning from BiT
+2020-11-12 11:09:01,901 [INFO] bit_common: Starting training!
+2020-11-12 11:09:08,109 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:09:08,109 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:09:08,109 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:09:08,109 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:09:08,109 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:09:17,177 [INFO] bit_common: [step 0]: loss=1.38629 (lr=0.0e+00)
+2020-11-12 11:09:18,584 [INFO] bit_common: [step 1]: loss=1.38629 (lr=7.0e-06)
+2020-11-12 11:09:19,184 [INFO] bit_common: [step 2]: loss=1.38257 (lr=1.4e-05)
+2020-11-12 11:09:19,819 [INFO] bit_common: [step 3]: loss=1.37221 (lr=2.1e-05)
+2020-11-12 11:09:20,471 [INFO] bit_common: [step 4]: loss=1.36895 (lr=2.8e-05)
+2020-11-12 11:09:21,117 [INFO] bit_common: [step 5]: loss=1.35121 (lr=3.5e-05)
+2020-11-12 11:09:21,775 [INFO] bit_common: [step 6]: loss=1.29280 (lr=4.2e-05)
+2020-11-12 11:09:22,428 [INFO] bit_common: [step 7]: loss=1.29562 (lr=4.9e-05)
+2020-11-12 11:09:23,075 [INFO] bit_common: [step 8]: loss=1.22073 (lr=5.6e-05)
+2020-11-12 11:09:23,732 [INFO] bit_common: [step 9]: loss=1.20427 (lr=6.3e-05)
+2020-11-12 11:09:23,915 [INFO] bit_common: Running validation...
+2020-11-12 11:09:28,065 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:09:28,066 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:09:28,066 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:09:28,066 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:09:28,066 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:09:34,345 [INFO] bit_common: top1 36.48%, 
+2020-11-12 11:09:35,950 [INFO] bit_common: [step 10]: loss=1.40005 (lr=7.0e-05)
+2020-11-12 11:09:36,586 [INFO] bit_common: [step 11]: loss=1.24857 (lr=7.7e-05)
+2020-11-12 11:09:37,243 [INFO] bit_common: [step 12]: loss=1.28055 (lr=8.4e-05)
+2020-11-12 11:09:37,901 [INFO] bit_common: [step 13]: loss=1.16252 (lr=9.1e-05)
+2020-11-12 11:09:38,560 [INFO] bit_common: [step 14]: loss=1.18269 (lr=9.8e-05)
+2020-11-12 11:09:39,215 [INFO] bit_common: [step 15]: loss=1.07638 (lr=1.1e-04)
+2020-11-12 11:09:39,875 [INFO] bit_common: [step 16]: loss=1.02055 (lr=1.1e-04)
+2020-11-12 11:09:40,440 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:09:40,440 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:09:40,440 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:09:40,440 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:09:40,441 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:09:40,535 [INFO] bit_common: [step 17]: loss=1.02310 (lr=1.2e-04)
+2020-11-12 11:09:41,197 [INFO] bit_common: [step 18]: loss=1.11152 (lr=1.3e-04)
+2020-11-12 11:09:41,843 [INFO] bit_common: [step 19]: loss=1.03561 (lr=1.3e-04)
+2020-11-12 11:09:42,024 [INFO] bit_common: Running validation...
+2020-11-12 11:09:45,334 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:09:45,334 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:09:45,334 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:09:45,334 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:09:45,334 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:09:49,329 [INFO] bit_common: top1 67.13%, 
+2020-11-12 11:09:51,707 [INFO] bit_common: [step 20]: loss=1.01488 (lr=1.4e-04)
+2020-11-12 11:09:52,365 [INFO] bit_common: [step 21]: loss=1.01643 (lr=1.5e-04)
+2020-11-12 11:09:53,014 [INFO] bit_common: [step 22]: loss=0.92373 (lr=1.5e-04)
+2020-11-12 11:09:53,673 [INFO] bit_common: [step 23]: loss=0.96099 (lr=1.6e-04)
+2020-11-12 11:09:54,335 [INFO] bit_common: [step 24]: loss=0.91240 (lr=1.7e-04)
+2020-11-12 11:09:54,993 [INFO] bit_common: [step 25]: loss=0.81574 (lr=1.7e-04)
+2020-11-12 11:09:55,643 [INFO] bit_common: [step 26]: loss=1.00064 (lr=1.8e-04)
+2020-11-12 11:09:56,287 [INFO] bit_common: [step 27]: loss=0.91673 (lr=1.9e-04)
+2020-11-12 11:09:56,950 [INFO] bit_common: [step 28]: loss=0.95330 (lr=2.0e-04)
+2020-11-12 11:09:57,605 [INFO] bit_common: [step 29]: loss=0.97841 (lr=2.0e-04)
+2020-11-12 11:09:57,779 [INFO] bit_common: Running validation...
+2020-11-12 11:10:00,916 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:10:00,917 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:10:00,917 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:10:00,917 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:10:00,917 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:10:05,042 [INFO] bit_common: top1 69.63%, 
+2020-11-12 11:10:07,397 [INFO] bit_common: [step 30]: loss=0.99575 (lr=2.1e-04)
+2020-11-12 11:10:08,056 [INFO] bit_common: [step 31]: loss=0.86170 (lr=2.2e-04)
+2020-11-12 11:10:08,712 [INFO] bit_common: [step 32]: loss=1.04861 (lr=2.2e-04)
+2020-11-12 11:10:09,374 [INFO] bit_common: [step 33]: loss=1.18758 (lr=2.3e-04)
+2020-11-12 11:10:10,029 [INFO] bit_common: [step 34]: loss=0.70058 (lr=2.4e-04)
+2020-11-12 11:10:10,682 [INFO] bit_common: [step 35]: loss=0.92687 (lr=2.4e-04)
+2020-11-12 11:10:11,338 [INFO] bit_common: [step 36]: loss=0.83745 (lr=2.5e-04)
+2020-11-12 11:10:11,999 [INFO] bit_common: [step 37]: loss=0.89089 (lr=2.6e-04)
+2020-11-12 11:10:12,662 [INFO] bit_common: [step 38]: loss=0.91600 (lr=2.7e-04)
+2020-11-12 11:10:13,308 [INFO] bit_common: [step 39]: loss=0.93450 (lr=2.7e-04)
+2020-11-12 11:10:13,489 [INFO] bit_common: Running validation...
+2020-11-12 11:10:16,765 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:10:16,766 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:10:16,766 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:10:16,766 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:10:16,766 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:10:20,154 [INFO] bit_common: top1 68.24%, 
+2020-11-12 11:10:22,428 [INFO] bit_common: [step 40]: loss=0.86131 (lr=2.8e-04)
+2020-11-12 11:10:23,082 [INFO] bit_common: [step 41]: loss=0.84240 (lr=2.9e-04)
+2020-11-12 11:10:23,746 [INFO] bit_common: [step 42]: loss=0.96365 (lr=2.9e-04)
+2020-11-12 11:10:24,410 [INFO] bit_common: [step 43]: loss=0.79686 (lr=3.0e-04)
+2020-11-12 11:10:25,074 [INFO] bit_common: [step 44]: loss=1.01338 (lr=3.1e-04)
+2020-11-12 11:10:25,737 [INFO] bit_common: [step 45]: loss=0.96517 (lr=3.2e-04)
+2020-11-12 11:10:26,391 [INFO] bit_common: [step 46]: loss=1.00031 (lr=3.2e-04)
+2020-11-12 11:10:27,044 [INFO] bit_common: [step 47]: loss=0.80763 (lr=3.3e-04)
+2020-11-12 11:10:27,702 [INFO] bit_common: [step 48]: loss=0.82551 (lr=3.4e-04)
+2020-11-12 11:10:28,366 [INFO] bit_common: [step 49]: loss=0.73804 (lr=3.4e-04)
+2020-11-12 11:10:28,546 [INFO] bit_common: Running validation...
+2020-11-12 11:10:32,335 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:10:32,336 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:10:32,336 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:10:32,336 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:10:32,336 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:10:35,950 [INFO] bit_common: top1 63.52%, 
+2020-11-12 11:10:38,300 [INFO] bit_common: [step 50]: loss=0.83362 (lr=3.5e-04)
+2020-11-12 11:10:38,965 [INFO] bit_common: [step 51]: loss=0.76835 (lr=3.6e-04)
+2020-11-12 11:10:39,620 [INFO] bit_common: [step 52]: loss=0.79345 (lr=3.6e-04)
+2020-11-12 11:10:40,280 [INFO] bit_common: [step 53]: loss=0.70888 (lr=3.7e-04)
+2020-11-12 11:10:40,932 [INFO] bit_common: [step 54]: loss=0.95562 (lr=3.8e-04)
+2020-11-12 11:10:41,596 [INFO] bit_common: [step 55]: loss=0.76636 (lr=3.8e-04)
+2020-11-12 11:10:42,262 [INFO] bit_common: [step 56]: loss=0.81007 (lr=3.9e-04)
+2020-11-12 11:10:42,929 [INFO] bit_common: [step 57]: loss=0.69127 (lr=4.0e-04)
+2020-11-12 11:10:43,593 [INFO] bit_common: [step 58]: loss=0.85431 (lr=4.1e-04)
+2020-11-12 11:10:44,256 [INFO] bit_common: [step 59]: loss=0.69038 (lr=4.1e-04)
+2020-11-12 11:10:44,436 [INFO] bit_common: Running validation...
+2020-11-12 11:10:47,924 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:10:47,925 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:10:47,925 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:10:47,925 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:10:47,925 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:10:51,285 [INFO] bit_common: top1 70.87%, 
+2020-11-12 11:10:53,682 [INFO] bit_common: [step 60]: loss=0.83151 (lr=4.2e-04)
+2020-11-12 11:10:54,345 [INFO] bit_common: [step 61]: loss=0.63023 (lr=4.3e-04)
+2020-11-12 11:10:55,004 [INFO] bit_common: [step 62]: loss=0.85623 (lr=4.3e-04)
+2020-11-12 11:10:55,664 [INFO] bit_common: [step 63]: loss=0.84673 (lr=4.4e-04)
+2020-11-12 11:10:56,325 [INFO] bit_common: [step 64]: loss=0.74779 (lr=4.5e-04)
+2020-11-12 11:10:56,990 [INFO] bit_common: [step 65]: loss=0.68906 (lr=4.6e-04)
+2020-11-12 11:10:57,675 [INFO] bit_common: [step 66]: loss=1.14297 (lr=4.6e-04)
+2020-11-12 11:10:58,338 [INFO] bit_common: [step 67]: loss=0.79109 (lr=4.7e-04)
+2020-11-12 11:10:59,003 [INFO] bit_common: [step 68]: loss=0.73849 (lr=4.8e-04)
+2020-11-12 11:10:59,668 [INFO] bit_common: [step 69]: loss=0.59189 (lr=4.8e-04)
+2020-11-12 11:10:59,852 [INFO] bit_common: Running validation...
+2020-11-12 11:11:03,944 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:11:03,945 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:11:03,945 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:11:03,945 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:11:03,945 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:11:07,088 [INFO] bit_common: top1 74.20%, 
+2020-11-12 11:11:09,444 [INFO] bit_common: [step 70]: loss=0.82824 (lr=4.9e-04)
+2020-11-12 11:11:10,097 [INFO] bit_common: [step 71]: loss=0.64631 (lr=5.0e-04)
+2020-11-12 11:11:10,760 [INFO] bit_common: [step 72]: loss=0.91841 (lr=5.0e-04)
+2020-11-12 11:11:11,424 [INFO] bit_common: [step 73]: loss=0.82696 (lr=5.1e-04)
+2020-11-12 11:11:12,086 [INFO] bit_common: [step 74]: loss=0.65804 (lr=5.2e-04)
+2020-11-12 11:11:12,753 [INFO] bit_common: [step 75]: loss=0.78980 (lr=5.2e-04)
+2020-11-12 11:11:13,422 [INFO] bit_common: [step 76]: loss=0.80785 (lr=5.3e-04)
+2020-11-12 11:11:14,088 [INFO] bit_common: [step 77]: loss=0.78092 (lr=5.4e-04)
+2020-11-12 11:11:14,735 [INFO] bit_common: [step 78]: loss=0.72827 (lr=5.5e-04)
+2020-11-12 11:11:15,398 [INFO] bit_common: [step 79]: loss=0.69057 (lr=5.5e-04)
+2020-11-12 11:11:15,578 [INFO] bit_common: Running validation...
+2020-11-12 11:11:19,121 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:11:19,121 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:11:19,121 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:11:19,121 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:11:19,121 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:11:22,768 [INFO] bit_common: top1 69.90%, 
+2020-11-12 11:11:25,078 [INFO] bit_common: [step 80]: loss=0.99500 (lr=5.6e-04)
+2020-11-12 11:11:25,746 [INFO] bit_common: [step 81]: loss=0.90299 (lr=5.7e-04)
+2020-11-12 11:11:26,411 [INFO] bit_common: [step 82]: loss=0.73259 (lr=5.7e-04)
+2020-11-12 11:11:27,078 [INFO] bit_common: [step 83]: loss=0.79005 (lr=5.8e-04)
+2020-11-12 11:11:27,744 [INFO] bit_common: [step 84]: loss=0.91569 (lr=5.9e-04)
+2020-11-12 11:11:28,411 [INFO] bit_common: [step 85]: loss=0.76759 (lr=5.9e-04)
+2020-11-12 11:11:29,074 [INFO] bit_common: [step 86]: loss=0.85968 (lr=6.0e-04)
+2020-11-12 11:11:29,738 [INFO] bit_common: [step 87]: loss=0.91901 (lr=6.1e-04)
+2020-11-12 11:11:30,408 [INFO] bit_common: [step 88]: loss=0.90716 (lr=6.2e-04)
+2020-11-12 11:11:31,074 [INFO] bit_common: [step 89]: loss=0.61613 (lr=6.2e-04)
+2020-11-12 11:11:31,261 [INFO] bit_common: Running validation...
+2020-11-12 11:11:33,735 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:11:33,736 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:11:33,736 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:11:33,736 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:11:33,736 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:11:35,812 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:11:35,812 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:11:35,812 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:11:35,812 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:11:35,812 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:11:39,110 [INFO] bit_common: top1 76.98%, 
+2020-11-12 11:11:41,459 [INFO] bit_common: [step 90]: loss=0.72938 (lr=6.3e-04)
+2020-11-12 11:11:42,124 [INFO] bit_common: [step 91]: loss=0.79687 (lr=6.4e-04)
+2020-11-12 11:11:42,773 [INFO] bit_common: [step 92]: loss=0.81842 (lr=6.4e-04)
+2020-11-12 11:11:43,422 [INFO] bit_common: [step 93]: loss=0.79078 (lr=6.5e-04)
+2020-11-12 11:11:44,071 [INFO] bit_common: [step 94]: loss=0.73439 (lr=6.6e-04)
+2020-11-12 11:11:44,733 [INFO] bit_common: [step 95]: loss=0.62814 (lr=6.7e-04)
+2020-11-12 11:11:45,388 [INFO] bit_common: [step 96]: loss=0.66770 (lr=6.7e-04)
+2020-11-12 11:11:46,047 [INFO] bit_common: [step 97]: loss=1.18195 (lr=6.8e-04)
+2020-11-12 11:11:46,714 [INFO] bit_common: [step 98]: loss=0.63761 (lr=6.9e-04)
+2020-11-12 11:11:47,365 [INFO] bit_common: [step 99]: loss=0.61807 (lr=6.9e-04)
+2020-11-12 11:11:47,546 [INFO] bit_common: Running validation...
+2020-11-12 11:11:51,055 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:11:51,056 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:11:51,056 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:11:51,056 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:11:51,056 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:11:55,118 [INFO] bit_common: top1 74.62%, 
+2020-11-12 11:11:57,444 [INFO] bit_common: [step 100]: loss=1.06693 (lr=7.0e-04)
+2020-11-12 11:11:58,109 [INFO] bit_common: [step 101]: loss=0.92225 (lr=7.0e-04)
+2020-11-12 11:11:58,772 [INFO] bit_common: [step 102]: loss=1.06982 (lr=7.0e-04)
+2020-11-12 11:11:59,437 [INFO] bit_common: [step 103]: loss=0.61715 (lr=7.0e-04)
+2020-11-12 11:12:00,109 [INFO] bit_common: [step 104]: loss=1.06109 (lr=7.0e-04)
+2020-11-12 11:12:00,772 [INFO] bit_common: [step 105]: loss=0.86648 (lr=7.0e-04)
+2020-11-12 11:12:01,429 [INFO] bit_common: [step 106]: loss=0.74406 (lr=7.0e-04)
+2020-11-12 11:12:02,093 [INFO] bit_common: [step 107]: loss=0.66369 (lr=7.0e-04)
+2020-11-12 11:12:02,768 [INFO] bit_common: [step 108]: loss=1.05400 (lr=7.0e-04)
+2020-11-12 11:12:03,430 [INFO] bit_common: [step 109]: loss=1.00115 (lr=7.0e-04)
+2020-11-12 11:12:03,622 [INFO] bit_common: Running validation...
+2020-11-12 11:12:07,175 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:12:07,176 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:12:07,176 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:12:07,176 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:12:07,176 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:12:10,165 [INFO] bit_common: top1 79.33%, 
+2020-11-12 11:12:12,486 [INFO] bit_common: [step 110]: loss=0.90453 (lr=7.0e-04)
+2020-11-12 11:12:13,151 [INFO] bit_common: [step 111]: loss=0.61289 (lr=7.0e-04)
+2020-11-12 11:12:13,812 [INFO] bit_common: [step 112]: loss=0.84871 (lr=7.0e-04)
+2020-11-12 11:12:14,480 [INFO] bit_common: [step 113]: loss=1.00032 (lr=7.0e-04)
+2020-11-12 11:12:15,143 [INFO] bit_common: [step 114]: loss=0.85566 (lr=7.0e-04)
+2020-11-12 11:12:15,796 [INFO] bit_common: [step 115]: loss=0.73941 (lr=7.0e-04)
+2020-11-12 11:12:16,460 [INFO] bit_common: [step 116]: loss=0.66117 (lr=7.0e-04)
+2020-11-12 11:12:17,138 [INFO] bit_common: [step 117]: loss=0.70000 (lr=7.0e-04)
+2020-11-12 11:12:17,788 [INFO] bit_common: [step 118]: loss=0.55119 (lr=7.0e-04)
+2020-11-12 11:12:18,448 [INFO] bit_common: [step 119]: loss=0.69390 (lr=7.0e-04)
+2020-11-12 11:12:18,630 [INFO] bit_common: Running validation...
+2020-11-12 11:12:22,140 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:12:22,140 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:12:22,140 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:12:22,140 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:12:22,140 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:12:25,505 [INFO] bit_common: top1 87.52%, 
+2020-11-12 11:12:27,954 [INFO] bit_common: [step 120]: loss=0.62662 (lr=7.0e-04)
+2020-11-12 11:12:28,611 [INFO] bit_common: [step 121]: loss=0.54464 (lr=7.0e-04)
+2020-11-12 11:12:29,260 [INFO] bit_common: [step 122]: loss=0.54350 (lr=7.0e-04)
+2020-11-12 11:12:29,923 [INFO] bit_common: [step 123]: loss=0.45681 (lr=7.0e-04)
+2020-11-12 11:12:30,582 [INFO] bit_common: [step 124]: loss=0.59548 (lr=7.0e-04)
+2020-11-12 11:12:31,262 [INFO] bit_common: [step 125]: loss=0.79232 (lr=7.0e-04)
+2020-11-12 11:12:31,932 [INFO] bit_common: [step 126]: loss=0.50298 (lr=7.0e-04)
+2020-11-12 11:12:32,599 [INFO] bit_common: [step 127]: loss=0.59948 (lr=7.0e-04)
+2020-11-12 11:12:33,277 [INFO] bit_common: [step 128]: loss=0.65558 (lr=7.0e-04)
+2020-11-12 11:12:33,966 [INFO] bit_common: [step 129]: loss=0.68581 (lr=7.0e-04)
+2020-11-12 11:12:34,150 [INFO] bit_common: Running validation...
+2020-11-12 11:12:37,328 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:12:37,328 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:12:37,328 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:12:37,328 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:12:37,328 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:12:40,757 [INFO] bit_common: top1 90.43%, 
+2020-11-12 11:12:43,060 [INFO] bit_common: [step 130]: loss=0.54046 (lr=7.0e-04)
+2020-11-12 11:12:43,721 [INFO] bit_common: [step 131]: loss=0.60110 (lr=7.0e-04)
+2020-11-12 11:12:44,383 [INFO] bit_common: [step 132]: loss=0.41421 (lr=7.0e-04)
+2020-11-12 11:12:45,045 [INFO] bit_common: [step 133]: loss=0.59495 (lr=7.0e-04)
+2020-11-12 11:12:45,693 [INFO] bit_common: [step 134]: loss=0.58615 (lr=7.0e-04)
+2020-11-12 11:12:46,356 [INFO] bit_common: [step 135]: loss=0.61106 (lr=7.0e-04)
+2020-11-12 11:12:47,030 [INFO] bit_common: [step 136]: loss=0.69557 (lr=7.0e-04)
+2020-11-12 11:12:47,697 [INFO] bit_common: [step 137]: loss=0.59980 (lr=7.0e-04)
+2020-11-12 11:12:48,357 [INFO] bit_common: [step 138]: loss=0.52750 (lr=7.0e-04)
+2020-11-12 11:12:49,020 [INFO] bit_common: [step 139]: loss=0.48651 (lr=7.0e-04)
+2020-11-12 11:12:49,201 [INFO] bit_common: Running validation...
+2020-11-12 11:12:53,195 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:12:53,195 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:12:53,195 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:12:53,196 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:12:53,196 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:12:56,378 [INFO] bit_common: top1 84.05%, 
+2020-11-12 11:12:58,679 [INFO] bit_common: [step 140]: loss=0.59042 (lr=7.0e-04)
+2020-11-12 11:12:59,340 [INFO] bit_common: [step 141]: loss=0.68222 (lr=7.0e-04)
+2020-11-12 11:13:00,003 [INFO] bit_common: [step 142]: loss=0.54760 (lr=7.0e-04)
+2020-11-12 11:13:00,668 [INFO] bit_common: [step 143]: loss=0.53541 (lr=7.0e-04)
+2020-11-12 11:13:01,334 [INFO] bit_common: [step 144]: loss=0.79248 (lr=7.0e-04)
+2020-11-12 11:13:01,996 [INFO] bit_common: [step 145]: loss=0.60728 (lr=7.0e-04)
+2020-11-12 11:13:02,646 [INFO] bit_common: [step 146]: loss=0.53954 (lr=7.0e-04)
+2020-11-12 11:13:03,309 [INFO] bit_common: [step 147]: loss=0.54028 (lr=7.0e-04)
+2020-11-12 11:13:03,977 [INFO] bit_common: [step 148]: loss=0.61744 (lr=7.0e-04)
+2020-11-12 11:13:04,652 [INFO] bit_common: [step 149]: loss=0.51551 (lr=7.0e-04)
+2020-11-12 11:13:04,834 [INFO] bit_common: Running validation...
+2020-11-12 11:13:08,704 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:13:08,704 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:13:08,704 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:13:08,704 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:13:08,704 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:13:12,100 [INFO] bit_common: top1 80.72%, 
+2020-11-12 11:13:14,484 [INFO] bit_common: [step 150]: loss=0.60401 (lr=7.0e-04)
+2020-11-12 11:13:15,150 [INFO] bit_common: [step 151]: loss=0.52057 (lr=7.0e-04)
+2020-11-12 11:13:15,812 [INFO] bit_common: [step 152]: loss=0.56843 (lr=7.0e-04)
+2020-11-12 11:13:16,488 [INFO] bit_common: [step 153]: loss=0.48261 (lr=7.0e-04)
+2020-11-12 11:13:17,152 [INFO] bit_common: [step 154]: loss=0.53931 (lr=7.0e-04)
+2020-11-12 11:13:17,828 [INFO] bit_common: [step 155]: loss=0.52928 (lr=7.0e-04)
+2020-11-12 11:13:18,488 [INFO] bit_common: [step 156]: loss=0.63011 (lr=7.0e-04)
+2020-11-12 11:13:19,138 [INFO] bit_common: [step 157]: loss=0.55845 (lr=7.0e-04)
+2020-11-12 11:13:19,801 [INFO] bit_common: [step 158]: loss=0.64870 (lr=7.0e-04)
+2020-11-12 11:13:20,465 [INFO] bit_common: [step 159]: loss=0.45124 (lr=7.0e-04)
+2020-11-12 11:13:20,649 [INFO] bit_common: Running validation...
+2020-11-12 11:13:24,131 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:13:24,131 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:13:24,131 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:13:24,131 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:13:24,131 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:13:27,353 [INFO] bit_common: top1 85.71%, 
+2020-11-12 11:13:29,699 [INFO] bit_common: [step 160]: loss=0.53445 (lr=7.0e-04)
+2020-11-12 11:13:30,361 [INFO] bit_common: [step 161]: loss=0.48716 (lr=7.0e-04)
+2020-11-12 11:13:31,036 [INFO] bit_common: [step 162]: loss=0.62331 (lr=7.0e-04)
+2020-11-12 11:13:31,704 [INFO] bit_common: [step 163]: loss=0.57609 (lr=7.0e-04)
+2020-11-12 11:13:31,740 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:13:31,741 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:13:31,741 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:13:31,741 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:13:31,741 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:13:32,365 [INFO] bit_common: [step 164]: loss=0.57778 (lr=7.0e-04)
+2020-11-12 11:13:33,036 [INFO] bit_common: [step 165]: loss=0.53693 (lr=7.0e-04)
+2020-11-12 11:13:33,709 [INFO] bit_common: [step 166]: loss=0.77189 (lr=7.0e-04)
+2020-11-12 11:13:34,372 [INFO] bit_common: [step 167]: loss=0.70289 (lr=7.0e-04)
+2020-11-12 11:13:35,035 [INFO] bit_common: [step 168]: loss=0.47463 (lr=7.0e-04)
+2020-11-12 11:13:35,716 [INFO] bit_common: [step 169]: loss=0.55574 (lr=7.0e-04)
+2020-11-12 11:13:35,887 [INFO] bit_common: Running validation...
+2020-11-12 11:13:39,115 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:13:39,115 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:13:39,116 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:13:39,116 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:13:39,116 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:13:42,526 [INFO] bit_common: top1 90.01%, 
+2020-11-12 11:13:44,854 [INFO] bit_common: [step 170]: loss=0.65493 (lr=7.0e-04)
+2020-11-12 11:13:45,520 [INFO] bit_common: [step 171]: loss=0.54734 (lr=7.0e-04)
+2020-11-12 11:13:46,168 [INFO] bit_common: [step 172]: loss=0.50436 (lr=7.0e-04)
+2020-11-12 11:13:46,838 [INFO] bit_common: [step 173]: loss=0.58518 (lr=7.0e-04)
+2020-11-12 11:13:47,499 [INFO] bit_common: [step 174]: loss=0.57846 (lr=7.0e-04)
+2020-11-12 11:13:48,166 [INFO] bit_common: [step 175]: loss=0.71257 (lr=7.0e-04)
+2020-11-12 11:13:48,826 [INFO] bit_common: [step 176]: loss=0.63553 (lr=7.0e-04)
+2020-11-12 11:13:49,496 [INFO] bit_common: [step 177]: loss=0.52471 (lr=7.0e-04)
+2020-11-12 11:13:50,157 [INFO] bit_common: [step 178]: loss=0.60313 (lr=7.0e-04)
+2020-11-12 11:13:50,824 [INFO] bit_common: [step 179]: loss=0.59634 (lr=7.0e-04)
+2020-11-12 11:13:51,006 [INFO] bit_common: Running validation...
+2020-11-12 11:13:54,201 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:13:54,202 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:13:54,202 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:13:54,202 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:13:54,202 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:13:57,692 [INFO] bit_common: top1 91.26%, 
+2020-11-12 11:14:00,045 [INFO] bit_common: [step 180]: loss=0.54949 (lr=7.0e-04)
+2020-11-12 11:14:00,711 [INFO] bit_common: [step 181]: loss=0.49462 (lr=7.0e-04)
+2020-11-12 11:14:01,382 [INFO] bit_common: [step 182]: loss=0.52770 (lr=7.0e-04)
+2020-11-12 11:14:02,040 [INFO] bit_common: [step 183]: loss=0.50488 (lr=7.0e-04)
+2020-11-12 11:14:02,703 [INFO] bit_common: [step 184]: loss=0.46768 (lr=7.0e-04)
+2020-11-12 11:14:03,367 [INFO] bit_common: [step 185]: loss=0.47662 (lr=7.0e-04)
+2020-11-12 11:14:04,036 [INFO] bit_common: [step 186]: loss=0.54492 (lr=7.0e-04)
+2020-11-12 11:14:04,702 [INFO] bit_common: [step 187]: loss=0.59763 (lr=7.0e-04)
+2020-11-12 11:14:05,364 [INFO] bit_common: [step 188]: loss=0.41628 (lr=7.0e-04)
+2020-11-12 11:14:06,030 [INFO] bit_common: [step 189]: loss=0.59905 (lr=7.0e-04)
+2020-11-12 11:14:06,212 [INFO] bit_common: Running validation...
+2020-11-12 11:14:09,737 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:14:09,737 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:14:09,737 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:14:09,737 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:14:09,737 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:14:13,158 [INFO] bit_common: top1 93.20%, 
+2020-11-12 11:14:15,500 [INFO] bit_common: [step 190]: loss=0.50785 (lr=7.0e-04)
+2020-11-12 11:14:16,169 [INFO] bit_common: [step 191]: loss=0.48820 (lr=7.0e-04)
+2020-11-12 11:14:16,833 [INFO] bit_common: [step 192]: loss=0.51583 (lr=7.0e-04)
+2020-11-12 11:14:17,501 [INFO] bit_common: [step 193]: loss=0.58328 (lr=7.0e-04)
+2020-11-12 11:14:18,179 [INFO] bit_common: [step 194]: loss=0.54177 (lr=7.0e-04)
+2020-11-12 11:14:18,849 [INFO] bit_common: [step 195]: loss=0.56015 (lr=7.0e-04)
+2020-11-12 11:14:19,513 [INFO] bit_common: [step 196]: loss=0.55939 (lr=7.0e-04)
+2020-11-12 11:14:20,192 [INFO] bit_common: [step 197]: loss=0.50001 (lr=7.0e-04)
+2020-11-12 11:14:20,870 [INFO] bit_common: [step 198]: loss=0.54948 (lr=7.0e-04)
+2020-11-12 11:14:21,534 [INFO] bit_common: [step 199]: loss=0.49138 (lr=7.0e-04)
+2020-11-12 11:14:21,717 [INFO] bit_common: Running validation...
+2020-11-12 11:14:25,164 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:14:25,165 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:14:25,165 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:14:25,165 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:14:25,165 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:14:28,629 [INFO] bit_common: top1 86.13%, 
+2020-11-12 11:14:31,799 [INFO] bit_common: [step 200]: loss=0.69994 (lr=7.0e-04)
+2020-11-12 11:14:32,459 [INFO] bit_common: [step 201]: loss=0.44226 (lr=7.0e-04)
+2020-11-12 11:14:38,691 [INFO] bit_common: [step 202]: loss=0.49360 (lr=7.0e-04)
+2020-11-12 11:14:41,510 [INFO] bit_common: [step 203]: loss=0.45503 (lr=7.0e-04)
+2020-11-12 11:14:42,095 [INFO] bit_common: [step 204]: loss=0.46001 (lr=7.0e-04)
+2020-11-12 11:14:42,751 [INFO] bit_common: [step 205]: loss=0.47903 (lr=7.0e-04)
+2020-11-12 11:14:44,985 [INFO] bit_common: [step 206]: loss=0.46413 (lr=7.0e-04)
+2020-11-12 11:14:45,649 [INFO] bit_common: [step 207]: loss=0.70346 (lr=7.0e-04)
+2020-11-12 11:14:46,313 [INFO] bit_common: [step 208]: loss=0.48248 (lr=7.0e-04)
+2020-11-12 11:14:46,963 [INFO] bit_common: [step 209]: loss=0.67636 (lr=7.0e-04)
+2020-11-12 11:14:47,148 [INFO] bit_common: Running validation...
+2020-11-12 11:14:51,004 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:14:51,005 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:14:51,005 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:14:51,005 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:14:51,005 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:14:54,755 [INFO] bit_common: top1 92.79%, 
+2020-11-12 11:14:57,059 [INFO] bit_common: [step 210]: loss=0.42549 (lr=7.0e-04)
+2020-11-12 11:14:57,719 [INFO] bit_common: [step 211]: loss=0.62288 (lr=7.0e-04)
+2020-11-12 11:14:58,389 [INFO] bit_common: [step 212]: loss=0.53146 (lr=7.0e-04)
+2020-11-12 11:14:59,041 [INFO] bit_common: [step 213]: loss=0.62765 (lr=7.0e-04)
+2020-11-12 11:14:59,702 [INFO] bit_common: [step 214]: loss=0.50078 (lr=7.0e-04)
+2020-11-12 11:15:00,371 [INFO] bit_common: [step 215]: loss=0.49988 (lr=7.0e-04)
+2020-11-12 11:15:01,030 [INFO] bit_common: [step 216]: loss=0.44274 (lr=7.0e-04)
+2020-11-12 11:15:01,699 [INFO] bit_common: [step 217]: loss=0.40175 (lr=7.0e-04)
+2020-11-12 11:15:02,363 [INFO] bit_common: [step 218]: loss=0.68283 (lr=7.0e-04)
+2020-11-12 11:15:03,050 [INFO] bit_common: [step 219]: loss=0.42716 (lr=7.0e-04)
+2020-11-12 11:15:03,213 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:15:03,214 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:15:03,214 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:15:03,214 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:15:03,214 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:15:03,223 [INFO] bit_common: Running validation...
+2020-11-12 11:15:06,848 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:15:06,849 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:15:06,849 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:15:06,849 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:15:06,849 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:15:10,496 [INFO] bit_common: top1 92.51%, 
+2020-11-12 11:15:12,833 [INFO] bit_common: [step 220]: loss=0.51149 (lr=7.0e-04)
+2020-11-12 11:15:13,490 [INFO] bit_common: [step 221]: loss=0.40387 (lr=7.0e-04)
+2020-11-12 11:15:14,142 [INFO] bit_common: [step 222]: loss=0.42231 (lr=7.0e-04)
+2020-11-12 11:15:14,804 [INFO] bit_common: [step 223]: loss=0.49140 (lr=7.0e-04)
+2020-11-12 11:15:15,467 [INFO] bit_common: [step 224]: loss=0.49514 (lr=7.0e-04)
+2020-11-12 11:15:16,129 [INFO] bit_common: [step 225]: loss=0.40866 (lr=7.0e-04)
+2020-11-12 11:15:16,788 [INFO] bit_common: [step 226]: loss=0.42101 (lr=7.0e-04)
+2020-11-12 11:15:17,446 [INFO] bit_common: [step 227]: loss=0.45301 (lr=7.0e-04)
+2020-11-12 11:15:18,108 [INFO] bit_common: [step 228]: loss=0.48819 (lr=7.0e-04)
+2020-11-12 11:15:18,778 [INFO] bit_common: [step 229]: loss=0.59595 (lr=7.0e-04)
+2020-11-12 11:15:18,960 [INFO] bit_common: Running validation...
+2020-11-12 11:15:23,119 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:15:23,119 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:15:23,119 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:15:23,119 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:15:23,119 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:15:26,627 [INFO] bit_common: top1 94.45%, 
+2020-11-12 11:15:29,661 [INFO] bit_common: [step 230]: loss=0.53919 (lr=7.0e-04)
+2020-11-12 11:15:30,329 [INFO] bit_common: [step 231]: loss=0.42786 (lr=7.0e-04)
+2020-11-12 11:15:30,992 [INFO] bit_common: [step 232]: loss=0.43515 (lr=7.0e-04)
+2020-11-12 11:15:31,660 [INFO] bit_common: [step 233]: loss=0.44620 (lr=7.0e-04)
+2020-11-12 11:15:32,325 [INFO] bit_common: [step 234]: loss=0.52576 (lr=7.0e-04)
+2020-11-12 11:15:32,974 [INFO] bit_common: [step 235]: loss=0.50297 (lr=7.0e-04)
+2020-11-12 11:15:33,630 [INFO] bit_common: [step 236]: loss=0.54410 (lr=7.0e-04)
+2020-11-12 11:15:34,313 [INFO] bit_common: [step 237]: loss=0.43380 (lr=7.0e-04)
+2020-11-12 11:15:34,983 [INFO] bit_common: [step 238]: loss=0.41339 (lr=7.0e-04)
+2020-11-12 11:15:35,665 [INFO] bit_common: [step 239]: loss=0.53346 (lr=7.0e-04)
+2020-11-12 11:15:35,847 [INFO] bit_common: Running validation...
+2020-11-12 11:15:39,911 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:15:39,911 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:15:39,912 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:15:39,912 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:15:39,912 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:15:42,907 [INFO] bit_common: top1 94.45%, 
+2020-11-12 11:15:45,240 [INFO] bit_common: [step 240]: loss=0.44848 (lr=7.0e-04)
+2020-11-12 11:15:45,893 [INFO] bit_common: [step 241]: loss=0.60529 (lr=7.0e-04)
+2020-11-12 11:15:46,555 [INFO] bit_common: [step 242]: loss=0.49087 (lr=7.0e-04)
+2020-11-12 11:15:47,209 [INFO] bit_common: [step 243]: loss=0.39364 (lr=7.0e-04)
+2020-11-12 11:15:47,872 [INFO] bit_common: [step 244]: loss=0.38454 (lr=7.0e-04)
+2020-11-12 11:15:48,536 [INFO] bit_common: [step 245]: loss=0.68633 (lr=7.0e-04)
+2020-11-12 11:15:49,194 [INFO] bit_common: [step 246]: loss=0.48557 (lr=7.0e-04)
+2020-11-12 11:15:49,861 [INFO] bit_common: [step 247]: loss=0.56129 (lr=7.0e-04)
+2020-11-12 11:15:50,537 [INFO] bit_common: [step 248]: loss=0.41789 (lr=7.0e-04)
+2020-11-12 11:15:51,227 [INFO] bit_common: [step 249]: loss=0.60670 (lr=7.0e-04)
+2020-11-12 11:15:51,407 [INFO] bit_common: Running validation...
+2020-11-12 11:15:55,373 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:15:55,373 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:15:55,373 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:15:55,373 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:15:55,373 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:15:58,667 [INFO] bit_common: top1 92.51%, 
+2020-11-12 11:16:01,017 [INFO] bit_common: [step 250]: loss=0.45293 (lr=7.0e-04)
+2020-11-12 11:16:01,677 [INFO] bit_common: [step 251]: loss=0.42261 (lr=7.0e-04)
+2020-11-12 11:16:02,344 [INFO] bit_common: [step 252]: loss=0.45460 (lr=7.0e-04)
+2020-11-12 11:16:03,018 [INFO] bit_common: [step 253]: loss=0.45375 (lr=7.0e-04)
+2020-11-12 11:16:03,688 [INFO] bit_common: [step 254]: loss=0.53933 (lr=7.0e-04)
+2020-11-12 11:16:04,347 [INFO] bit_common: [step 255]: loss=0.42797 (lr=7.0e-04)
+2020-11-12 11:16:05,015 [INFO] bit_common: [step 256]: loss=0.42246 (lr=7.0e-04)
+2020-11-12 11:16:05,702 [INFO] bit_common: [step 257]: loss=0.49440 (lr=7.0e-04)
+2020-11-12 11:16:06,350 [INFO] bit_common: [step 258]: loss=0.40778 (lr=7.0e-04)
+2020-11-12 11:16:07,010 [INFO] bit_common: [step 259]: loss=0.52900 (lr=7.0e-04)
+2020-11-12 11:16:07,193 [INFO] bit_common: Running validation...
+2020-11-12 11:16:11,358 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:16:11,358 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:16:11,358 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:16:11,358 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:16:11,358 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:16:14,768 [INFO] bit_common: top1 90.29%, 
+2020-11-12 11:16:16,625 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:16:16,625 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:16:16,625 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:16:16,626 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:16:16,626 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:16:17,045 [INFO] bit_common: [step 260]: loss=0.50494 (lr=7.0e-04)
+2020-11-12 11:16:17,708 [INFO] bit_common: [step 261]: loss=0.58477 (lr=7.0e-04)
+2020-11-12 11:16:18,375 [INFO] bit_common: [step 262]: loss=0.38435 (lr=7.0e-04)
+2020-11-12 11:16:19,028 [INFO] bit_common: [step 263]: loss=0.47116 (lr=7.0e-04)
+2020-11-12 11:16:19,680 [INFO] bit_common: [step 264]: loss=0.55365 (lr=7.0e-04)
+2020-11-12 11:16:20,335 [INFO] bit_common: [step 265]: loss=0.46652 (lr=7.0e-04)
+2020-11-12 11:16:20,999 [INFO] bit_common: [step 266]: loss=0.77147 (lr=7.0e-04)
+2020-11-12 11:16:21,661 [INFO] bit_common: [step 267]: loss=0.44802 (lr=7.0e-04)
+2020-11-12 11:16:22,328 [INFO] bit_common: [step 268]: loss=0.43877 (lr=7.0e-04)
+2020-11-12 11:16:22,991 [INFO] bit_common: [step 269]: loss=0.49751 (lr=7.0e-04)
+2020-11-12 11:16:23,172 [INFO] bit_common: Running validation...
+2020-11-12 11:16:27,289 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:16:27,289 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:16:27,290 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:16:27,290 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:16:27,290 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:16:30,300 [INFO] bit_common: top1 89.88%, 
+2020-11-12 11:16:32,735 [INFO] bit_common: [step 270]: loss=0.61272 (lr=7.0e-04)
+2020-11-12 11:16:33,401 [INFO] bit_common: [step 271]: loss=0.61006 (lr=7.0e-04)
+2020-11-12 11:16:34,067 [INFO] bit_common: [step 272]: loss=0.40736 (lr=7.0e-04)
+2020-11-12 11:16:34,735 [INFO] bit_common: [step 273]: loss=0.44472 (lr=7.0e-04)
+2020-11-12 11:16:35,411 [INFO] bit_common: [step 274]: loss=0.40085 (lr=7.0e-04)
+2020-11-12 11:16:36,081 [INFO] bit_common: [step 275]: loss=0.47014 (lr=7.0e-04)
+2020-11-12 11:16:36,201 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:16:36,201 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:16:36,201 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:16:36,201 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:16:36,201 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:16:36,746 [INFO] bit_common: [step 276]: loss=0.59089 (lr=7.0e-04)
+2020-11-12 11:16:37,403 [INFO] bit_common: [step 277]: loss=0.42954 (lr=7.0e-04)
+2020-11-12 11:16:38,083 [INFO] bit_common: [step 278]: loss=0.48219 (lr=7.0e-04)
+2020-11-12 11:16:38,742 [INFO] bit_common: [step 279]: loss=0.56467 (lr=7.0e-04)
+2020-11-12 11:16:38,925 [INFO] bit_common: Running validation...
+2020-11-12 11:16:42,552 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:16:42,552 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:16:42,552 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:16:42,552 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:16:42,552 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:16:46,271 [INFO] bit_common: top1 93.90%, 
+2020-11-12 11:16:48,561 [INFO] bit_common: [step 280]: loss=0.66609 (lr=7.0e-04)
+2020-11-12 11:16:49,212 [INFO] bit_common: [step 281]: loss=0.43981 (lr=7.0e-04)
+2020-11-12 11:16:49,882 [INFO] bit_common: [step 282]: loss=0.68622 (lr=7.0e-04)
+2020-11-12 11:16:50,554 [INFO] bit_common: [step 283]: loss=0.43964 (lr=7.0e-04)
+2020-11-12 11:16:51,212 [INFO] bit_common: [step 284]: loss=0.64652 (lr=7.0e-04)
+2020-11-12 11:16:51,872 [INFO] bit_common: [step 285]: loss=0.61225 (lr=7.0e-04)
+2020-11-12 11:16:52,526 [INFO] bit_common: [step 286]: loss=0.50640 (lr=7.0e-04)
+2020-11-12 11:16:53,198 [INFO] bit_common: [step 287]: loss=0.47635 (lr=7.0e-04)
+2020-11-12 11:16:53,870 [INFO] bit_common: [step 288]: loss=0.50872 (lr=7.0e-04)
+2020-11-12 11:16:54,531 [INFO] bit_common: [step 289]: loss=0.52704 (lr=7.0e-04)
+2020-11-12 11:16:54,720 [INFO] bit_common: Running validation...
+2020-11-12 11:16:58,871 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:16:58,872 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:16:58,872 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:16:58,872 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:16:58,872 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:17:02,355 [INFO] bit_common: top1 88.63%, 
+2020-11-12 11:17:04,728 [INFO] bit_common: [step 290]: loss=0.63773 (lr=7.0e-04)
+2020-11-12 11:17:05,395 [INFO] bit_common: [step 291]: loss=0.55161 (lr=7.0e-04)
+2020-11-12 11:17:06,060 [INFO] bit_common: [step 292]: loss=0.45849 (lr=7.0e-04)
+2020-11-12 11:17:06,726 [INFO] bit_common: [step 293]: loss=0.44938 (lr=7.0e-04)
+2020-11-12 11:17:07,398 [INFO] bit_common: [step 294]: loss=0.43998 (lr=7.0e-04)
+2020-11-12 11:17:08,070 [INFO] bit_common: [step 295]: loss=0.47337 (lr=7.0e-04)
+2020-11-12 11:17:08,751 [INFO] bit_common: [step 296]: loss=0.61643 (lr=7.0e-04)
+2020-11-12 11:17:09,439 [INFO] bit_common: [step 297]: loss=0.65181 (lr=7.0e-04)
+2020-11-12 11:17:10,094 [INFO] bit_common: [step 298]: loss=0.68044 (lr=7.0e-04)
+2020-11-12 11:17:10,774 [INFO] bit_common: [step 299]: loss=0.44589 (lr=7.0e-04)
+2020-11-12 11:17:10,962 [INFO] bit_common: Running validation...
+2020-11-12 11:17:14,986 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:17:14,986 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:17:14,986 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:17:14,987 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:17:14,987 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:17:19,331 [INFO] bit_common: top1 93.34%, 
+2020-11-12 11:17:22,978 [INFO] bit_common: [step 300]: loss=0.40052 (lr=7.0e-04)
+2020-11-12 11:17:23,640 [INFO] bit_common: [step 301]: loss=0.53611 (lr=7.0e-05)
+2020-11-12 11:17:24,302 [INFO] bit_common: [step 302]: loss=0.44698 (lr=7.0e-05)
+2020-11-12 11:17:24,975 [INFO] bit_common: [step 303]: loss=0.54285 (lr=7.0e-05)
+2020-11-12 11:17:25,641 [INFO] bit_common: [step 304]: loss=0.39435 (lr=7.0e-05)
+2020-11-12 11:17:26,293 [INFO] bit_common: [step 305]: loss=0.50608 (lr=7.0e-05)
+2020-11-12 11:17:26,966 [INFO] bit_common: [step 306]: loss=0.42655 (lr=7.0e-05)
+2020-11-12 11:17:27,632 [INFO] bit_common: [step 307]: loss=0.49832 (lr=7.0e-05)
+2020-11-12 11:17:28,280 [INFO] bit_common: [step 308]: loss=0.51873 (lr=7.0e-05)
+2020-11-12 11:17:28,945 [INFO] bit_common: [step 309]: loss=0.47909 (lr=7.0e-05)
+2020-11-12 11:17:29,132 [INFO] bit_common: Running validation...
+2020-11-12 11:17:32,583 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:17:32,583 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:17:32,583 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:17:32,583 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:17:32,583 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:17:36,812 [INFO] bit_common: top1 93.62%, 
+2020-11-12 11:17:40,322 [INFO] bit_common: [step 310]: loss=0.49683 (lr=7.0e-05)
+2020-11-12 11:17:40,989 [INFO] bit_common: [step 311]: loss=0.41490 (lr=7.0e-05)
+2020-11-12 11:17:41,641 [INFO] bit_common: [step 312]: loss=0.41347 (lr=7.0e-05)
+2020-11-12 11:17:42,292 [INFO] bit_common: [step 313]: loss=0.49514 (lr=7.0e-05)
+2020-11-12 11:17:42,959 [INFO] bit_common: [step 314]: loss=0.37556 (lr=7.0e-05)
+2020-11-12 11:17:43,615 [INFO] bit_common: [step 315]: loss=0.46386 (lr=7.0e-05)
+2020-11-12 11:17:44,267 [INFO] bit_common: [step 316]: loss=0.49593 (lr=7.0e-05)
+2020-11-12 11:17:44,942 [INFO] bit_common: [step 317]: loss=0.41987 (lr=7.0e-05)
+2020-11-12 11:17:45,591 [INFO] bit_common: [step 318]: loss=0.37417 (lr=7.0e-05)
+2020-11-12 11:17:46,262 [INFO] bit_common: [step 319]: loss=0.48557 (lr=7.0e-05)
+2020-11-12 11:17:46,446 [INFO] bit_common: Running validation...
+2020-11-12 11:17:50,403 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:17:50,404 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:17:50,404 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:17:50,404 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:17:50,404 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:17:53,984 [INFO] bit_common: top1 93.34%, 
+2020-11-12 11:17:57,519 [INFO] bit_common: [step 320]: loss=0.46687 (lr=7.0e-05)
+2020-11-12 11:17:58,178 [INFO] bit_common: [step 321]: loss=0.42772 (lr=7.0e-05)
+2020-11-12 11:17:58,841 [INFO] bit_common: [step 322]: loss=0.40483 (lr=7.0e-05)
+2020-11-12 11:17:59,514 [INFO] bit_common: [step 323]: loss=0.43581 (lr=7.0e-05)
+2020-11-12 11:18:00,175 [INFO] bit_common: [step 324]: loss=0.48946 (lr=7.0e-05)
+2020-11-12 11:18:00,839 [INFO] bit_common: [step 325]: loss=0.46117 (lr=7.0e-05)
+2020-11-12 11:18:01,498 [INFO] bit_common: [step 326]: loss=0.45208 (lr=7.0e-05)
+2020-11-12 11:18:02,161 [INFO] bit_common: [step 327]: loss=0.39448 (lr=7.0e-05)
+2020-11-12 11:18:02,835 [INFO] bit_common: [step 328]: loss=0.43544 (lr=7.0e-05)
+2020-11-12 11:18:03,499 [INFO] bit_common: [step 329]: loss=0.41667 (lr=7.0e-05)
+2020-11-12 11:18:03,680 [INFO] bit_common: Running validation...
+2020-11-12 11:18:07,183 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:18:07,184 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:18:07,184 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:18:07,184 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:18:07,184 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:18:11,093 [INFO] bit_common: top1 93.48%, 
+2020-11-12 11:18:14,722 [INFO] bit_common: [step 330]: loss=0.42691 (lr=7.0e-05)
+2020-11-12 11:18:15,372 [INFO] bit_common: [step 331]: loss=0.38960 (lr=7.0e-05)
+2020-11-12 11:18:16,031 [INFO] bit_common: [step 332]: loss=0.45661 (lr=7.0e-05)
+2020-11-12 11:18:16,699 [INFO] bit_common: [step 333]: loss=0.46415 (lr=7.0e-05)
+2020-11-12 11:18:17,363 [INFO] bit_common: [step 334]: loss=0.37119 (lr=7.0e-05)
+2020-11-12 11:18:18,020 [INFO] bit_common: [step 335]: loss=0.42357 (lr=7.0e-05)
+2020-11-12 11:18:18,672 [INFO] bit_common: [step 336]: loss=0.38257 (lr=7.0e-05)
+2020-11-12 11:18:19,336 [INFO] bit_common: [step 337]: loss=0.41789 (lr=7.0e-05)
+2020-11-12 11:18:19,989 [INFO] bit_common: [step 338]: loss=0.41154 (lr=7.0e-05)
+2020-11-12 11:18:20,655 [INFO] bit_common: [step 339]: loss=0.40871 (lr=7.0e-05)
+2020-11-12 11:18:20,839 [INFO] bit_common: Running validation...
+2020-11-12 11:18:24,879 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:18:24,879 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:18:24,879 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:18:24,879 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:18:24,879 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:18:28,405 [INFO] bit_common: top1 94.45%, 
+2020-11-12 11:18:31,920 [INFO] bit_common: [step 340]: loss=0.42981 (lr=7.0e-05)
+2020-11-12 11:18:32,571 [INFO] bit_common: [step 341]: loss=0.36904 (lr=7.0e-05)
+2020-11-12 11:18:33,239 [INFO] bit_common: [step 342]: loss=0.43194 (lr=7.0e-05)
+2020-11-12 11:18:33,899 [INFO] bit_common: [step 343]: loss=0.47370 (lr=7.0e-05)
+2020-11-12 11:18:34,568 [INFO] bit_common: [step 344]: loss=0.50575 (lr=7.0e-05)
+2020-11-12 11:18:35,242 [INFO] bit_common: [step 345]: loss=0.37818 (lr=7.0e-05)
+2020-11-12 11:18:35,904 [INFO] bit_common: [step 346]: loss=0.52074 (lr=7.0e-05)
+2020-11-12 11:18:36,560 [INFO] bit_common: [step 347]: loss=0.40036 (lr=7.0e-05)
+2020-11-12 11:18:37,241 [INFO] bit_common: [step 348]: loss=0.41419 (lr=7.0e-05)
+2020-11-12 11:18:37,898 [INFO] bit_common: [step 349]: loss=0.45451 (lr=7.0e-05)
+2020-11-12 11:18:38,082 [INFO] bit_common: Running validation...
+2020-11-12 11:18:42,035 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:18:42,035 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:18:42,035 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:18:42,035 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:18:42,035 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:18:46,293 [INFO] bit_common: top1 94.73%, 
+2020-11-12 11:18:49,553 [INFO] bit_common: [step 350]: loss=0.45204 (lr=7.0e-05)
+2020-11-12 11:18:50,220 [INFO] bit_common: [step 351]: loss=0.39270 (lr=7.0e-05)
+2020-11-12 11:18:50,876 [INFO] bit_common: [step 352]: loss=0.43632 (lr=7.0e-05)
+2020-11-12 11:18:51,531 [INFO] bit_common: [step 353]: loss=0.37092 (lr=7.0e-05)
+2020-11-12 11:18:52,205 [INFO] bit_common: [step 354]: loss=0.43922 (lr=7.0e-05)
+2020-11-12 11:18:52,863 [INFO] bit_common: [step 355]: loss=0.38782 (lr=7.0e-05)
+2020-11-12 11:18:53,531 [INFO] bit_common: [step 356]: loss=0.43147 (lr=7.0e-05)
+2020-11-12 11:18:54,192 [INFO] bit_common: [step 357]: loss=0.48932 (lr=7.0e-05)
+2020-11-12 11:18:54,867 [INFO] bit_common: [step 358]: loss=0.44279 (lr=7.0e-05)
+2020-11-12 11:18:55,532 [INFO] bit_common: [step 359]: loss=0.46398 (lr=7.0e-05)
+2020-11-12 11:18:55,715 [INFO] bit_common: Running validation...
+2020-11-12 11:18:59,558 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:18:59,559 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:18:59,559 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:18:59,559 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:18:59,559 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:19:03,314 [INFO] bit_common: top1 94.87%, 
+2020-11-12 11:19:05,683 [INFO] bit_common: [step 360]: loss=0.41616 (lr=7.0e-05)
+2020-11-12 11:19:06,341 [INFO] bit_common: [step 361]: loss=0.37209 (lr=7.0e-05)
+2020-11-12 11:19:07,003 [INFO] bit_common: [step 362]: loss=0.43263 (lr=7.0e-05)
+2020-11-12 11:19:07,669 [INFO] bit_common: [step 363]: loss=0.46969 (lr=7.0e-05)
+2020-11-12 11:19:08,336 [INFO] bit_common: [step 364]: loss=0.45457 (lr=7.0e-05)
+2020-11-12 11:19:09,009 [INFO] bit_common: [step 365]: loss=0.37765 (lr=7.0e-05)
+2020-11-12 11:19:09,677 [INFO] bit_common: [step 366]: loss=0.37963 (lr=7.0e-05)
+2020-11-12 11:19:10,323 [INFO] bit_common: [step 367]: loss=0.52421 (lr=7.0e-05)
+2020-11-12 11:19:10,980 [INFO] bit_common: [step 368]: loss=0.48864 (lr=7.0e-05)
+2020-11-12 11:19:11,656 [INFO] bit_common: [step 369]: loss=0.43801 (lr=7.0e-05)
+2020-11-12 11:19:11,839 [INFO] bit_common: Running validation...
+2020-11-12 11:19:15,300 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:19:15,301 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:19:15,301 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:19:15,301 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:19:15,301 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:19:19,136 [INFO] bit_common: top1 94.59%, 
+2020-11-12 11:19:21,434 [INFO] bit_common: [step 370]: loss=0.42386 (lr=7.0e-05)
+2020-11-12 11:19:22,105 [INFO] bit_common: [step 371]: loss=0.38886 (lr=7.0e-05)
+2020-11-12 11:19:22,763 [INFO] bit_common: [step 372]: loss=0.42194 (lr=7.0e-05)
+2020-11-12 11:19:23,414 [INFO] bit_common: [step 373]: loss=0.63600 (lr=7.0e-05)
+2020-11-12 11:19:24,078 [INFO] bit_common: [step 374]: loss=0.43167 (lr=7.0e-05)
+2020-11-12 11:19:24,757 [INFO] bit_common: [step 375]: loss=0.42162 (lr=7.0e-05)
+2020-11-12 11:19:25,434 [INFO] bit_common: [step 376]: loss=0.47601 (lr=7.0e-05)
+2020-11-12 11:19:26,084 [INFO] bit_common: [step 377]: loss=0.48109 (lr=7.0e-05)
+2020-11-12 11:19:26,744 [INFO] bit_common: [step 378]: loss=0.42879 (lr=7.0e-05)
+2020-11-12 11:19:27,422 [INFO] bit_common: [step 379]: loss=0.44747 (lr=7.0e-05)
+2020-11-12 11:19:27,612 [INFO] bit_common: Running validation...
+2020-11-12 11:19:31,597 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:19:31,598 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:19:31,598 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:19:31,598 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:19:31,598 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:19:35,325 [INFO] bit_common: top1 94.73%, 
+2020-11-12 11:19:37,622 [INFO] bit_common: [step 380]: loss=0.40688 (lr=7.0e-05)
+2020-11-12 11:19:38,293 [INFO] bit_common: [step 381]: loss=0.44714 (lr=7.0e-05)
+2020-11-12 11:19:38,960 [INFO] bit_common: [step 382]: loss=0.46720 (lr=7.0e-05)
+2020-11-12 11:19:39,619 [INFO] bit_common: [step 383]: loss=0.42237 (lr=7.0e-05)
+2020-11-12 11:19:40,096 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:19:40,096 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:19:40,096 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:19:40,096 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:19:40,096 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:19:40,275 [INFO] bit_common: [step 384]: loss=0.37741 (lr=7.0e-05)
+2020-11-12 11:19:40,948 [INFO] bit_common: [step 385]: loss=0.41325 (lr=7.0e-05)
+2020-11-12 11:19:41,605 [INFO] bit_common: [step 386]: loss=0.54115 (lr=7.0e-05)
+2020-11-12 11:19:42,273 [INFO] bit_common: [step 387]: loss=0.37949 (lr=7.0e-05)
+2020-11-12 11:19:42,928 [INFO] bit_common: [step 388]: loss=0.47268 (lr=7.0e-05)
+2020-11-12 11:19:43,611 [INFO] bit_common: [step 389]: loss=0.36732 (lr=7.0e-05)
+2020-11-12 11:19:43,804 [INFO] bit_common: Running validation...
+2020-11-12 11:19:47,683 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:19:47,684 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:19:47,684 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:19:47,684 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:19:47,684 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:19:50,970 [INFO] bit_common: top1 95.01%, 
+2020-11-12 11:19:53,267 [INFO] bit_common: [step 390]: loss=0.58408 (lr=7.0e-05)
+2020-11-12 11:19:53,932 [INFO] bit_common: [step 391]: loss=0.40232 (lr=7.0e-05)
+2020-11-12 11:19:54,601 [INFO] bit_common: [step 392]: loss=0.39724 (lr=7.0e-05)
+2020-11-12 11:19:55,281 [INFO] bit_common: [step 393]: loss=0.37242 (lr=7.0e-05)
+2020-11-12 11:19:55,955 [INFO] bit_common: [step 394]: loss=0.39670 (lr=7.0e-05)
+2020-11-12 11:19:56,619 [INFO] bit_common: [step 395]: loss=0.42570 (lr=7.0e-05)
+2020-11-12 11:19:57,295 [INFO] bit_common: [step 396]: loss=0.39221 (lr=7.0e-05)
+2020-11-12 11:19:57,962 [INFO] bit_common: [step 397]: loss=0.47045 (lr=7.0e-05)
+2020-11-12 11:19:58,624 [INFO] bit_common: [step 398]: loss=0.37051 (lr=7.0e-05)
+2020-11-12 11:19:59,293 [INFO] bit_common: [step 399]: loss=0.38264 (lr=7.0e-05)
+2020-11-12 11:19:59,478 [INFO] bit_common: Running validation...
+2020-11-12 11:20:02,787 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:20:02,787 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:20:02,787 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:20:02,787 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:20:02,788 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:20:06,346 [INFO] bit_common: top1 95.01%, 
+2020-11-12 11:20:08,694 [INFO] bit_common: [step 400]: loss=0.38859 (lr=7.0e-05)
+2020-11-12 11:20:09,366 [INFO] bit_common: [step 401]: loss=0.43156 (lr=7.0e-05)
+2020-11-12 11:20:10,046 [INFO] bit_common: [step 402]: loss=0.38723 (lr=7.0e-05)
+2020-11-12 11:20:10,708 [INFO] bit_common: [step 403]: loss=0.41948 (lr=7.0e-05)
+2020-11-12 11:20:11,370 [INFO] bit_common: [step 404]: loss=0.42068 (lr=7.0e-05)
+2020-11-12 11:20:11,815 [INFO] bit_common: [step 405]: loss=0.37553 (lr=7.0e-05)
+2020-11-12 11:20:18,294 [INFO] bit_common: [step 406]: loss=0.43548 (lr=7.0e-05)
+2020-11-12 11:20:18,952 [INFO] bit_common: [step 407]: loss=0.38333 (lr=7.0e-05)
+2020-11-12 11:20:19,609 [INFO] bit_common: [step 408]: loss=0.36995 (lr=7.0e-05)
+2020-11-12 11:20:20,281 [INFO] bit_common: [step 409]: loss=0.42645 (lr=7.0e-05)
+2020-11-12 11:20:20,460 [INFO] bit_common: Running validation...
+2020-11-12 11:20:24,638 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:20:24,638 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:20:24,638 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:20:24,638 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:20:24,638 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:20:28,398 [INFO] bit_common: top1 95.01%, 
+2020-11-12 11:20:30,699 [INFO] bit_common: [step 410]: loss=0.46446 (lr=7.0e-05)
+2020-11-12 11:20:31,362 [INFO] bit_common: [step 411]: loss=0.37232 (lr=7.0e-05)
+2020-11-12 11:20:32,017 [INFO] bit_common: [step 412]: loss=0.38046 (lr=7.0e-05)
+2020-11-12 11:20:32,669 [INFO] bit_common: [step 413]: loss=0.40412 (lr=7.0e-05)
+2020-11-12 11:20:33,323 [INFO] bit_common: [step 414]: loss=0.37283 (lr=7.0e-05)
+2020-11-12 11:20:34,003 [INFO] bit_common: [step 415]: loss=0.38256 (lr=7.0e-05)
+2020-11-12 11:20:34,532 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:20:34,532 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:20:34,532 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:20:34,532 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:20:34,532 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:20:34,661 [INFO] bit_common: [step 416]: loss=0.36769 (lr=7.0e-05)
+2020-11-12 11:20:35,333 [INFO] bit_common: [step 417]: loss=0.37227 (lr=7.0e-05)
+2020-11-12 11:20:35,988 [INFO] bit_common: [step 418]: loss=0.43228 (lr=7.0e-05)
+2020-11-12 11:20:36,658 [INFO] bit_common: [step 419]: loss=0.38313 (lr=7.0e-05)
+2020-11-12 11:20:36,840 [INFO] bit_common: Running validation...
+2020-11-12 11:20:40,678 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:20:40,679 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:20:40,679 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:20:40,679 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:20:40,679 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:20:44,718 [INFO] bit_common: top1 95.01%, 
+2020-11-12 11:20:47,125 [INFO] bit_common: [step 420]: loss=0.37762 (lr=7.0e-05)
+2020-11-12 11:20:47,782 [INFO] bit_common: [step 421]: loss=0.38247 (lr=7.0e-05)
+2020-11-12 11:20:48,448 [INFO] bit_common: [step 422]: loss=0.37274 (lr=7.0e-05)
+2020-11-12 11:20:49,142 [INFO] bit_common: [step 423]: loss=0.41263 (lr=7.0e-05)
+2020-11-12 11:20:49,826 [INFO] bit_common: [step 424]: loss=0.38845 (lr=7.0e-05)
+2020-11-12 11:20:50,500 [INFO] bit_common: [step 425]: loss=0.37395 (lr=7.0e-05)
+2020-11-12 11:20:51,176 [INFO] bit_common: [step 426]: loss=0.37371 (lr=7.0e-05)
+2020-11-12 11:20:51,853 [INFO] bit_common: [step 427]: loss=0.46077 (lr=7.0e-05)
+2020-11-12 11:20:52,517 [INFO] bit_common: [step 428]: loss=0.40136 (lr=7.0e-05)
+2020-11-12 11:20:53,179 [INFO] bit_common: [step 429]: loss=0.40277 (lr=7.0e-05)
+2020-11-12 11:20:53,361 [INFO] bit_common: Running validation...
+2020-11-12 11:20:57,089 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:20:57,089 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:20:57,089 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:20:57,089 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:20:57,089 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:21:00,979 [INFO] bit_common: top1 95.15%, 
+2020-11-12 11:21:04,414 [INFO] bit_common: [step 430]: loss=0.42280 (lr=7.0e-05)
+2020-11-12 11:21:05,076 [INFO] bit_common: [step 431]: loss=0.41937 (lr=7.0e-05)
+2020-11-12 11:21:05,749 [INFO] bit_common: [step 432]: loss=0.41773 (lr=7.0e-05)
+2020-11-12 11:21:06,415 [INFO] bit_common: [step 433]: loss=0.43227 (lr=7.0e-05)
+2020-11-12 11:21:07,077 [INFO] bit_common: [step 434]: loss=0.39544 (lr=7.0e-05)
+2020-11-12 11:21:07,749 [INFO] bit_common: [step 435]: loss=0.39426 (lr=7.0e-05)
+2020-11-12 11:21:08,421 [INFO] bit_common: [step 436]: loss=0.38746 (lr=7.0e-05)
+2020-11-12 11:21:09,085 [INFO] bit_common: [step 437]: loss=0.37845 (lr=7.0e-05)
+2020-11-12 11:21:09,742 [INFO] bit_common: [step 438]: loss=0.42581 (lr=7.0e-05)
+2020-11-12 11:21:10,413 [INFO] bit_common: [step 439]: loss=0.60350 (lr=7.0e-05)
+2020-11-12 11:21:10,593 [INFO] bit_common: Running validation...
+2020-11-12 11:21:14,797 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:21:14,797 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:21:14,797 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:21:14,797 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:21:14,798 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:21:18,247 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:21:20,625 [INFO] bit_common: [step 440]: loss=0.49288 (lr=7.0e-05)
+2020-11-12 11:21:21,288 [INFO] bit_common: [step 441]: loss=0.39028 (lr=7.0e-05)
+2020-11-12 11:21:21,970 [INFO] bit_common: [step 442]: loss=0.40728 (lr=7.0e-05)
+2020-11-12 11:21:22,638 [INFO] bit_common: [step 443]: loss=0.38105 (lr=7.0e-05)
+2020-11-12 11:21:23,306 [INFO] bit_common: [step 444]: loss=0.39249 (lr=7.0e-05)
+2020-11-12 11:21:23,981 [INFO] bit_common: [step 445]: loss=0.37044 (lr=7.0e-05)
+2020-11-12 11:21:24,632 [INFO] bit_common: [step 446]: loss=0.45643 (lr=7.0e-05)
+2020-11-12 11:21:25,303 [INFO] bit_common: [step 447]: loss=0.45037 (lr=7.0e-05)
+2020-11-12 11:21:25,972 [INFO] bit_common: [step 448]: loss=0.37619 (lr=7.0e-05)
+2020-11-12 11:21:26,644 [INFO] bit_common: [step 449]: loss=0.41499 (lr=7.0e-05)
+2020-11-12 11:21:26,826 [INFO] bit_common: Running validation...
+2020-11-12 11:21:30,700 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:21:30,701 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:21:30,701 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:21:30,701 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:21:30,701 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:21:33,969 [INFO] bit_common: top1 94.87%, 
+2020-11-12 11:21:36,370 [INFO] bit_common: [step 450]: loss=0.39285 (lr=7.0e-05)
+2020-11-12 11:21:37,032 [INFO] bit_common: [step 451]: loss=0.53182 (lr=7.0e-05)
+2020-11-12 11:21:37,702 [INFO] bit_common: [step 452]: loss=0.45552 (lr=7.0e-05)
+2020-11-12 11:21:38,365 [INFO] bit_common: [step 453]: loss=0.45568 (lr=7.0e-05)
+2020-11-12 11:21:39,029 [INFO] bit_common: [step 454]: loss=0.41916 (lr=7.0e-05)
+2020-11-12 11:21:39,692 [INFO] bit_common: [step 455]: loss=0.39157 (lr=7.0e-05)
+2020-11-12 11:21:40,362 [INFO] bit_common: [step 456]: loss=0.45777 (lr=7.0e-05)
+2020-11-12 11:21:41,024 [INFO] bit_common: [step 457]: loss=0.41976 (lr=7.0e-05)
+2020-11-12 11:21:41,686 [INFO] bit_common: [step 458]: loss=0.36439 (lr=7.0e-05)
+2020-11-12 11:21:42,365 [INFO] bit_common: [step 459]: loss=0.38208 (lr=7.0e-05)
+2020-11-12 11:21:42,545 [INFO] bit_common: Running validation...
+2020-11-12 11:21:46,285 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:21:46,286 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:21:46,286 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:21:46,286 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:21:46,286 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:21:49,737 [INFO] bit_common: top1 95.15%, 
+2020-11-12 11:21:52,028 [INFO] bit_common: [step 460]: loss=0.52382 (lr=7.0e-05)
+2020-11-12 11:21:52,707 [INFO] bit_common: [step 461]: loss=0.40588 (lr=7.0e-05)
+2020-11-12 11:21:53,377 [INFO] bit_common: [step 462]: loss=0.37099 (lr=7.0e-05)
+2020-11-12 11:21:54,053 [INFO] bit_common: [step 463]: loss=0.44131 (lr=7.0e-05)
+2020-11-12 11:21:54,725 [INFO] bit_common: [step 464]: loss=0.42817 (lr=7.0e-05)
+2020-11-12 11:21:55,388 [INFO] bit_common: [step 465]: loss=0.60546 (lr=7.0e-05)
+2020-11-12 11:21:56,062 [INFO] bit_common: [step 466]: loss=0.49423 (lr=7.0e-05)
+2020-11-12 11:21:56,729 [INFO] bit_common: [step 467]: loss=0.44917 (lr=7.0e-05)
+2020-11-12 11:21:57,394 [INFO] bit_common: [step 468]: loss=0.37208 (lr=7.0e-05)
+2020-11-12 11:21:58,064 [INFO] bit_common: [step 469]: loss=0.37029 (lr=7.0e-05)
+2020-11-12 11:21:58,246 [INFO] bit_common: Running validation...
+2020-11-12 11:22:01,878 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:22:01,879 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:22:01,879 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:22:01,879 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:22:01,879 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:22:05,603 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:22:07,975 [INFO] bit_common: [step 470]: loss=0.36529 (lr=7.0e-05)
+2020-11-12 11:22:08,640 [INFO] bit_common: [step 471]: loss=0.46574 (lr=7.0e-05)
+2020-11-12 11:22:09,302 [INFO] bit_common: [step 472]: loss=0.37632 (lr=7.0e-05)
+2020-11-12 11:22:09,969 [INFO] bit_common: [step 473]: loss=0.38922 (lr=7.0e-05)
+2020-11-12 11:22:10,653 [INFO] bit_common: [step 474]: loss=0.39572 (lr=7.0e-05)
+2020-11-12 11:22:11,319 [INFO] bit_common: [step 475]: loss=0.40072 (lr=7.0e-05)
+2020-11-12 11:22:11,967 [INFO] bit_common: [step 476]: loss=0.37518 (lr=7.0e-05)
+2020-11-12 11:22:12,635 [INFO] bit_common: [step 477]: loss=0.37747 (lr=7.0e-05)
+2020-11-12 11:22:13,322 [INFO] bit_common: [step 478]: loss=0.39526 (lr=7.0e-05)
+2020-11-12 11:22:13,994 [INFO] bit_common: [step 479]: loss=0.48544 (lr=7.0e-05)
+2020-11-12 11:22:14,180 [INFO] bit_common: Running validation...
+2020-11-12 11:22:17,803 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:22:17,804 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:22:17,804 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:22:17,804 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:22:17,804 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:22:21,396 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:22:23,694 [INFO] bit_common: [step 480]: loss=0.36583 (lr=7.0e-05)
+2020-11-12 11:22:24,367 [INFO] bit_common: [step 481]: loss=0.39428 (lr=7.0e-05)
+2020-11-12 11:22:25,030 [INFO] bit_common: [step 482]: loss=0.38353 (lr=7.0e-05)
+2020-11-12 11:22:25,696 [INFO] bit_common: [step 483]: loss=0.38966 (lr=7.0e-05)
+2020-11-12 11:22:26,119 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:22:26,119 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:22:26,119 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:22:26,119 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:22:26,119 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:22:26,361 [INFO] bit_common: [step 484]: loss=0.47410 (lr=7.0e-05)
+2020-11-12 11:22:27,040 [INFO] bit_common: [step 485]: loss=0.40531 (lr=7.0e-05)
+2020-11-12 11:22:27,717 [INFO] bit_common: [step 486]: loss=0.36221 (lr=7.0e-05)
+2020-11-12 11:22:28,383 [INFO] bit_common: [step 487]: loss=0.38017 (lr=7.0e-05)
+2020-11-12 11:22:29,044 [INFO] bit_common: [step 488]: loss=0.44890 (lr=7.0e-05)
+2020-11-12 11:22:29,707 [INFO] bit_common: [step 489]: loss=0.36373 (lr=7.0e-05)
+2020-11-12 11:22:29,889 [INFO] bit_common: Running validation...
+2020-11-12 11:22:34,055 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:22:34,055 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:22:34,055 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:22:34,056 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:22:34,056 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:22:37,666 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:22:40,011 [INFO] bit_common: [step 490]: loss=0.40468 (lr=7.0e-05)
+2020-11-12 11:22:40,679 [INFO] bit_common: [step 491]: loss=0.40161 (lr=7.0e-05)
+2020-11-12 11:22:41,343 [INFO] bit_common: [step 492]: loss=0.41898 (lr=7.0e-05)
+2020-11-12 11:22:42,015 [INFO] bit_common: [step 493]: loss=0.44810 (lr=7.0e-05)
+2020-11-12 11:22:42,670 [INFO] bit_common: [step 494]: loss=0.44867 (lr=7.0e-05)
+2020-11-12 11:22:43,324 [INFO] bit_common: [step 495]: loss=0.43797 (lr=7.0e-05)
+2020-11-12 11:22:43,977 [INFO] bit_common: [step 496]: loss=0.42423 (lr=7.0e-05)
+2020-11-12 11:22:44,660 [INFO] bit_common: [step 497]: loss=0.38574 (lr=7.0e-05)
+2020-11-12 11:22:45,324 [INFO] bit_common: [step 498]: loss=0.36394 (lr=7.0e-05)
+2020-11-12 11:22:45,978 [INFO] bit_common: [step 499]: loss=0.42596 (lr=7.0e-05)
+2020-11-12 11:22:46,164 [INFO] bit_common: Running validation...
+2020-11-12 11:22:50,645 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:22:50,645 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:22:50,645 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:22:50,646 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:22:50,646 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:22:53,908 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:22:56,270 [INFO] bit_common: [step 500]: loss=0.36788 (lr=7.0e-05)
+2020-11-12 11:22:56,941 [INFO] bit_common: [step 501]: loss=0.38853 (lr=7.0e-05)
+2020-11-12 11:22:57,593 [INFO] bit_common: [step 502]: loss=0.39771 (lr=7.0e-05)
+2020-11-12 11:22:58,255 [INFO] bit_common: [step 503]: loss=0.37887 (lr=7.0e-05)
+2020-11-12 11:22:58,920 [INFO] bit_common: [step 504]: loss=0.43489 (lr=7.0e-05)
+2020-11-12 11:22:59,598 [INFO] bit_common: [step 505]: loss=0.37134 (lr=7.0e-05)
+2020-11-12 11:23:00,267 [INFO] bit_common: [step 506]: loss=0.38249 (lr=7.0e-05)
+2020-11-12 11:23:00,930 [INFO] bit_common: [step 507]: loss=0.38401 (lr=7.0e-05)
+2020-11-12 11:23:01,594 [INFO] bit_common: [step 508]: loss=0.42389 (lr=7.0e-05)
+2020-11-12 11:23:02,263 [INFO] bit_common: [step 509]: loss=0.43904 (lr=7.0e-05)
+2020-11-12 11:23:02,447 [INFO] bit_common: Running validation...
+2020-11-12 11:23:06,173 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:23:06,173 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:23:06,173 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:23:06,173 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:23:06,173 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:23:09,716 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:23:12,757 [INFO] bit_common: [step 510]: loss=0.37357 (lr=7.0e-05)
+2020-11-12 11:23:13,418 [INFO] bit_common: [step 511]: loss=0.43323 (lr=7.0e-05)
+2020-11-12 11:23:14,081 [INFO] bit_common: [step 512]: loss=0.42726 (lr=7.0e-05)
+2020-11-12 11:23:14,754 [INFO] bit_common: [step 513]: loss=0.45011 (lr=7.0e-05)
+2020-11-12 11:23:15,410 [INFO] bit_common: [step 514]: loss=0.40944 (lr=7.0e-05)
+2020-11-12 11:23:16,060 [INFO] bit_common: [step 515]: loss=0.36587 (lr=7.0e-05)
+2020-11-12 11:23:16,726 [INFO] bit_common: [step 516]: loss=0.41352 (lr=7.0e-05)
+2020-11-12 11:23:17,386 [INFO] bit_common: [step 517]: loss=0.40778 (lr=7.0e-05)
+2020-11-12 11:23:18,060 [INFO] bit_common: [step 518]: loss=0.36746 (lr=7.0e-05)
+2020-11-12 11:23:18,722 [INFO] bit_common: [step 519]: loss=0.43430 (lr=7.0e-05)
+2020-11-12 11:23:18,910 [INFO] bit_common: Running validation...
+2020-11-12 11:23:22,619 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:23:22,619 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:23:22,619 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:23:22,619 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:23:22,619 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:23:27,040 [INFO] bit_common: top1 94.87%, 
+2020-11-12 11:23:29,998 [INFO] bit_common: [step 520]: loss=0.37158 (lr=7.0e-05)
+2020-11-12 11:23:30,668 [INFO] bit_common: [step 521]: loss=0.40760 (lr=7.0e-05)
+2020-11-12 11:23:31,333 [INFO] bit_common: [step 522]: loss=0.38937 (lr=7.0e-05)
+2020-11-12 11:23:31,997 [INFO] bit_common: [step 523]: loss=0.37529 (lr=7.0e-05)
+2020-11-12 11:23:32,655 [INFO] bit_common: [step 524]: loss=0.41181 (lr=7.0e-05)
+2020-11-12 11:23:33,308 [INFO] bit_common: [step 525]: loss=0.43194 (lr=7.0e-05)
+2020-11-12 11:23:33,960 [INFO] bit_common: [step 526]: loss=0.38418 (lr=7.0e-05)
+2020-11-12 11:23:34,063 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:23:34,063 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:23:34,063 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:23:34,063 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:23:34,063 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:23:34,634 [INFO] bit_common: [step 527]: loss=0.38967 (lr=7.0e-05)
+2020-11-12 11:23:35,298 [INFO] bit_common: [step 528]: loss=0.36870 (lr=7.0e-05)
+2020-11-12 11:23:35,962 [INFO] bit_common: [step 529]: loss=0.39362 (lr=7.0e-05)
+2020-11-12 11:23:36,143 [INFO] bit_common: Running validation...
+2020-11-12 11:23:39,764 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:23:39,764 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:23:39,764 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:23:39,764 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:23:39,764 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:23:45,104 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:23:47,843 [INFO] bit_common: [step 530]: loss=0.37403 (lr=7.0e-05)
+2020-11-12 11:23:48,505 [INFO] bit_common: [step 531]: loss=0.38034 (lr=7.0e-05)
+2020-11-12 11:23:49,165 [INFO] bit_common: [step 532]: loss=0.37021 (lr=7.0e-05)
+2020-11-12 11:23:49,828 [INFO] bit_common: [step 533]: loss=0.45409 (lr=7.0e-05)
+2020-11-12 11:23:50,489 [INFO] bit_common: [step 534]: loss=0.43033 (lr=7.0e-05)
+2020-11-12 11:23:51,145 [INFO] bit_common: [step 535]: loss=0.37706 (lr=7.0e-05)
+2020-11-12 11:23:51,803 [INFO] bit_common: [step 536]: loss=0.37726 (lr=7.0e-05)
+2020-11-12 11:23:52,464 [INFO] bit_common: [step 537]: loss=0.45299 (lr=7.0e-05)
+2020-11-12 11:23:53,132 [INFO] bit_common: [step 538]: loss=0.36972 (lr=7.0e-05)
+2020-11-12 11:23:53,798 [INFO] bit_common: [step 539]: loss=0.37575 (lr=7.0e-05)
+2020-11-12 11:23:53,978 [INFO] bit_common: Running validation...
+2020-11-12 11:23:57,885 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:23:57,885 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:23:57,885 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:23:57,885 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:23:57,885 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:24:01,449 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:24:03,784 [INFO] bit_common: [step 540]: loss=0.42170 (lr=7.0e-05)
+2020-11-12 11:24:04,439 [INFO] bit_common: [step 541]: loss=0.36964 (lr=7.0e-05)
+2020-11-12 11:24:05,092 [INFO] bit_common: [step 542]: loss=0.50723 (lr=7.0e-05)
+2020-11-12 11:24:05,765 [INFO] bit_common: [step 543]: loss=0.36714 (lr=7.0e-05)
+2020-11-12 11:24:06,438 [INFO] bit_common: [step 544]: loss=0.38228 (lr=7.0e-05)
+2020-11-12 11:24:07,106 [INFO] bit_common: [step 545]: loss=0.37097 (lr=7.0e-05)
+2020-11-12 11:24:07,782 [INFO] bit_common: [step 546]: loss=0.43046 (lr=7.0e-05)
+2020-11-12 11:24:08,443 [INFO] bit_common: [step 547]: loss=0.38430 (lr=7.0e-05)
+2020-11-12 11:24:09,101 [INFO] bit_common: [step 548]: loss=0.38863 (lr=7.0e-05)
+2020-11-12 11:24:09,756 [INFO] bit_common: [step 549]: loss=0.38027 (lr=7.0e-05)
+2020-11-12 11:24:09,943 [INFO] bit_common: Running validation...
+2020-11-12 11:24:13,802 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:24:13,802 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:24:13,802 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:24:13,802 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:24:13,802 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:24:17,099 [INFO] bit_common: top1 95.15%, 
+2020-11-12 11:24:19,490 [INFO] bit_common: [step 550]: loss=0.40337 (lr=7.0e-05)
+2020-11-12 11:24:20,154 [INFO] bit_common: [step 551]: loss=0.38299 (lr=7.0e-05)
+2020-11-12 11:24:20,820 [INFO] bit_common: [step 552]: loss=0.38977 (lr=7.0e-05)
+2020-11-12 11:24:21,494 [INFO] bit_common: [step 553]: loss=0.37712 (lr=7.0e-05)
+2020-11-12 11:24:22,161 [INFO] bit_common: [step 554]: loss=0.43369 (lr=7.0e-05)
+2020-11-12 11:24:22,826 [INFO] bit_common: [step 555]: loss=0.37843 (lr=7.0e-05)
+2020-11-12 11:24:23,492 [INFO] bit_common: [step 556]: loss=0.37857 (lr=7.0e-05)
+2020-11-12 11:24:24,152 [INFO] bit_common: [step 557]: loss=0.43396 (lr=7.0e-05)
+2020-11-12 11:24:24,820 [INFO] bit_common: [step 558]: loss=0.39306 (lr=7.0e-05)
+2020-11-12 11:24:25,481 [INFO] bit_common: [step 559]: loss=0.39144 (lr=7.0e-05)
+2020-11-12 11:24:25,664 [INFO] bit_common: Running validation...
+2020-11-12 11:24:29,239 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:24:29,239 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:24:29,239 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:24:29,239 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:24:29,239 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:24:33,913 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:24:36,402 [INFO] bit_common: [step 560]: loss=0.41306 (lr=7.0e-05)
+2020-11-12 11:24:37,078 [INFO] bit_common: [step 561]: loss=0.44789 (lr=7.0e-05)
+2020-11-12 11:24:37,730 [INFO] bit_common: [step 562]: loss=0.38283 (lr=7.0e-05)
+2020-11-12 11:24:38,399 [INFO] bit_common: [step 563]: loss=0.38688 (lr=7.0e-05)
+2020-11-12 11:24:39,069 [INFO] bit_common: [step 564]: loss=0.38243 (lr=7.0e-05)
+2020-11-12 11:24:39,742 [INFO] bit_common: [step 565]: loss=0.37934 (lr=7.0e-05)
+2020-11-12 11:24:40,411 [INFO] bit_common: [step 566]: loss=0.37112 (lr=7.0e-05)
+2020-11-12 11:24:41,061 [INFO] bit_common: [step 567]: loss=0.37657 (lr=7.0e-05)
+2020-11-12 11:24:41,715 [INFO] bit_common: [step 568]: loss=0.37134 (lr=7.0e-05)
+2020-11-12 11:24:42,396 [INFO] bit_common: [step 569]: loss=0.43530 (lr=7.0e-05)
+2020-11-12 11:24:42,580 [INFO] bit_common: Running validation...
+2020-11-12 11:24:42,591 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:24:42,591 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:24:42,591 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:24:42,591 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:24:42,591 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:24:46,303 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:24:46,304 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:24:46,304 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:24:46,304 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:24:46,304 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:24:50,592 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:24:52,997 [INFO] bit_common: [step 570]: loss=0.36278 (lr=7.0e-05)
+2020-11-12 11:24:53,675 [INFO] bit_common: [step 571]: loss=0.41876 (lr=7.0e-05)
+2020-11-12 11:24:54,340 [INFO] bit_common: [step 572]: loss=0.39922 (lr=7.0e-05)
+2020-11-12 11:24:55,012 [INFO] bit_common: [step 573]: loss=0.46988 (lr=7.0e-05)
+2020-11-12 11:24:55,668 [INFO] bit_common: [step 574]: loss=0.49846 (lr=7.0e-05)
+2020-11-12 11:24:56,341 [INFO] bit_common: [step 575]: loss=0.42409 (lr=7.0e-05)
+2020-11-12 11:24:57,001 [INFO] bit_common: [step 576]: loss=0.41081 (lr=7.0e-05)
+2020-11-12 11:24:57,665 [INFO] bit_common: [step 577]: loss=0.39989 (lr=7.0e-05)
+2020-11-12 11:24:58,338 [INFO] bit_common: [step 578]: loss=0.37834 (lr=7.0e-05)
+2020-11-12 11:24:59,013 [INFO] bit_common: [step 579]: loss=0.41814 (lr=7.0e-05)
+2020-11-12 11:24:59,195 [INFO] bit_common: Running validation...
+2020-11-12 11:25:03,188 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:25:03,188 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:25:03,188 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:25:03,188 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:25:03,189 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:25:06,362 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:25:08,654 [INFO] bit_common: [step 580]: loss=0.37980 (lr=7.0e-05)
+2020-11-12 11:25:09,321 [INFO] bit_common: [step 581]: loss=0.37946 (lr=7.0e-05)
+2020-11-12 11:25:09,989 [INFO] bit_common: [step 582]: loss=0.38198 (lr=7.0e-05)
+2020-11-12 11:25:10,659 [INFO] bit_common: [step 583]: loss=0.46374 (lr=7.0e-05)
+2020-11-12 11:25:11,325 [INFO] bit_common: [step 584]: loss=0.52827 (lr=7.0e-05)
+2020-11-12 11:25:11,986 [INFO] bit_common: [step 585]: loss=0.37678 (lr=7.0e-05)
+2020-11-12 11:25:12,650 [INFO] bit_common: [step 586]: loss=0.38595 (lr=7.0e-05)
+2020-11-12 11:25:13,308 [INFO] bit_common: [step 587]: loss=0.45044 (lr=7.0e-05)
+2020-11-12 11:25:13,970 [INFO] bit_common: [step 588]: loss=0.41385 (lr=7.0e-05)
+2020-11-12 11:25:14,628 [INFO] bit_common: [step 589]: loss=0.39171 (lr=7.0e-05)
+2020-11-12 11:25:14,817 [INFO] bit_common: Running validation...
+2020-11-12 11:25:18,968 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:25:18,968 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:25:18,969 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:25:18,969 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:25:18,969 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:25:22,642 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:25:25,128 [INFO] bit_common: [step 590]: loss=0.46819 (lr=7.0e-05)
+2020-11-12 11:25:25,798 [INFO] bit_common: [step 591]: loss=0.43239 (lr=7.0e-05)
+2020-11-12 11:25:26,465 [INFO] bit_common: [step 592]: loss=0.36878 (lr=7.0e-05)
+2020-11-12 11:25:27,136 [INFO] bit_common: [step 593]: loss=0.39725 (lr=7.0e-05)
+2020-11-12 11:25:27,800 [INFO] bit_common: [step 594]: loss=0.47757 (lr=7.0e-05)
+2020-11-12 11:25:28,468 [INFO] bit_common: [step 595]: loss=0.43462 (lr=7.0e-05)
+2020-11-12 11:25:29,127 [INFO] bit_common: [step 596]: loss=0.36635 (lr=7.0e-05)
+2020-11-12 11:25:29,786 [INFO] bit_common: [step 597]: loss=0.37814 (lr=7.0e-05)
+2020-11-12 11:25:30,457 [INFO] bit_common: [step 598]: loss=0.40642 (lr=7.0e-05)
+2020-11-12 11:25:31,133 [INFO] bit_common: [step 599]: loss=0.38721 (lr=7.0e-05)
+2020-11-12 11:25:31,317 [INFO] bit_common: Running validation...
+2020-11-12 11:25:35,088 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:25:35,088 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:25:35,088 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:25:35,088 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:25:35,088 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:25:38,276 [INFO] bit_common: top1 95.56%, 
+2020-11-12 11:25:40,765 [INFO] bit_common: [step 600]: loss=0.39674 (lr=7.0e-05)
+2020-11-12 11:25:41,434 [INFO] bit_common: [step 601]: loss=0.38108 (lr=7.0e-06)
+2020-11-12 11:25:42,100 [INFO] bit_common: [step 602]: loss=0.39052 (lr=7.0e-06)
+2020-11-12 11:25:42,752 [INFO] bit_common: [step 603]: loss=0.36341 (lr=7.0e-06)
+2020-11-12 11:25:43,404 [INFO] bit_common: [step 604]: loss=0.39944 (lr=7.0e-06)
+2020-11-12 11:25:44,080 [INFO] bit_common: [step 605]: loss=0.46289 (lr=7.0e-06)
+2020-11-12 11:25:44,750 [INFO] bit_common: [step 606]: loss=0.37647 (lr=7.0e-06)
+2020-11-12 11:25:45,417 [INFO] bit_common: [step 607]: loss=0.39175 (lr=7.0e-06)
+2020-11-12 11:25:45,862 [INFO] bit_common: [step 608]: loss=0.37805 (lr=7.0e-06)
+2020-11-12 11:25:47,359 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:25:47,359 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:25:47,360 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:25:47,360 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:25:47,360 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:25:50,525 [INFO] bit_common: [step 609]: loss=0.40098 (lr=7.0e-06)
+2020-11-12 11:25:50,710 [INFO] bit_common: Running validation...
+2020-11-12 11:25:55,476 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:25:55,476 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:25:55,476 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:25:55,476 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:25:55,476 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:25:58,513 [INFO] bit_common: top1 95.56%, 
+2020-11-12 11:26:00,863 [INFO] bit_common: [step 610]: loss=0.43594 (lr=7.0e-06)
+2020-11-12 11:26:01,519 [INFO] bit_common: [step 611]: loss=0.37656 (lr=7.0e-06)
+2020-11-12 11:26:02,181 [INFO] bit_common: [step 612]: loss=0.39278 (lr=7.0e-06)
+2020-11-12 11:26:02,841 [INFO] bit_common: [step 613]: loss=0.37939 (lr=7.0e-06)
+2020-11-12 11:26:03,516 [INFO] bit_common: [step 614]: loss=0.37510 (lr=7.0e-06)
+2020-11-12 11:26:04,183 [INFO] bit_common: [step 615]: loss=0.37809 (lr=7.0e-06)
+2020-11-12 11:26:04,845 [INFO] bit_common: [step 616]: loss=0.38538 (lr=7.0e-06)
+2020-11-12 11:26:05,507 [INFO] bit_common: [step 617]: loss=0.37007 (lr=7.0e-06)
+2020-11-12 11:26:06,184 [INFO] bit_common: [step 618]: loss=0.38170 (lr=7.0e-06)
+2020-11-12 11:26:06,845 [INFO] bit_common: [step 619]: loss=0.37651 (lr=7.0e-06)
+2020-11-12 11:26:07,025 [INFO] bit_common: Running validation...
+2020-11-12 11:26:11,288 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:26:11,289 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:26:11,289 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:26:11,289 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:26:11,289 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:26:14,219 [INFO] bit_common: top1 95.56%, 
+2020-11-12 11:26:16,474 [INFO] bit_common: [step 620]: loss=0.37608 (lr=7.0e-06)
+2020-11-12 11:26:17,143 [INFO] bit_common: [step 621]: loss=0.38664 (lr=7.0e-06)
+2020-11-12 11:26:17,811 [INFO] bit_common: [step 622]: loss=0.42864 (lr=7.0e-06)
+2020-11-12 11:26:18,472 [INFO] bit_common: [step 623]: loss=0.37579 (lr=7.0e-06)
+2020-11-12 11:26:19,138 [INFO] bit_common: [step 624]: loss=0.36886 (lr=7.0e-06)
+2020-11-12 11:26:19,788 [INFO] bit_common: [step 625]: loss=0.41687 (lr=7.0e-06)
+2020-11-12 11:26:20,454 [INFO] bit_common: [step 626]: loss=0.36677 (lr=7.0e-06)
+2020-11-12 11:26:21,130 [INFO] bit_common: [step 627]: loss=0.37693 (lr=7.0e-06)
+2020-11-12 11:26:21,793 [INFO] bit_common: [step 628]: loss=0.40081 (lr=7.0e-06)
+2020-11-12 11:26:22,456 [INFO] bit_common: [step 629]: loss=0.43774 (lr=7.0e-06)
+2020-11-12 11:26:22,638 [INFO] bit_common: Running validation...
+2020-11-12 11:26:26,847 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:26:26,847 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:26:26,847 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:26:26,848 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:26:26,848 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:26:30,361 [INFO] bit_common: top1 95.70%, 
+2020-11-12 11:26:32,688 [INFO] bit_common: [step 630]: loss=0.38918 (lr=7.0e-06)
+2020-11-12 11:26:33,353 [INFO] bit_common: [step 631]: loss=0.41505 (lr=7.0e-06)
+2020-11-12 11:26:34,022 [INFO] bit_common: [step 632]: loss=0.41399 (lr=7.0e-06)
+2020-11-12 11:26:34,679 [INFO] bit_common: [step 633]: loss=0.41103 (lr=7.0e-06)
+2020-11-12 11:26:35,338 [INFO] bit_common: [step 634]: loss=0.38499 (lr=7.0e-06)
+2020-11-12 11:26:36,012 [INFO] bit_common: [step 635]: loss=0.45340 (lr=7.0e-06)
+2020-11-12 11:26:36,687 [INFO] bit_common: [step 636]: loss=0.36810 (lr=7.0e-06)
+2020-11-12 11:26:37,340 [INFO] bit_common: [step 637]: loss=0.36649 (lr=7.0e-06)
+2020-11-12 11:26:37,998 [INFO] bit_common: [step 638]: loss=0.37128 (lr=7.0e-06)
+2020-11-12 11:26:38,649 [INFO] bit_common: [step 639]: loss=0.39720 (lr=7.0e-06)
+2020-11-12 11:26:38,836 [INFO] bit_common: Running validation...
+2020-11-12 11:26:43,174 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:26:43,174 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:26:43,174 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:26:43,174 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:26:43,175 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:26:47,016 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:26:50,325 [INFO] bit_common: [step 640]: loss=0.38337 (lr=7.0e-06)
+2020-11-12 11:26:50,984 [INFO] bit_common: [step 641]: loss=0.37387 (lr=7.0e-06)
+2020-11-12 11:26:51,665 [INFO] bit_common: [step 642]: loss=0.39044 (lr=7.0e-06)
+2020-11-12 11:26:52,328 [INFO] bit_common: [step 643]: loss=0.43180 (lr=7.0e-06)
+2020-11-12 11:26:52,994 [INFO] bit_common: [step 644]: loss=0.37449 (lr=7.0e-06)
+2020-11-12 11:26:53,652 [INFO] bit_common: [step 645]: loss=0.37280 (lr=7.0e-06)
+2020-11-12 11:26:54,315 [INFO] bit_common: [step 646]: loss=0.37154 (lr=7.0e-06)
+2020-11-12 11:26:54,975 [INFO] bit_common: [step 647]: loss=0.40893 (lr=7.0e-06)
+2020-11-12 11:26:55,629 [INFO] bit_common: [step 648]: loss=0.39184 (lr=7.0e-06)
+2020-11-12 11:26:56,288 [INFO] bit_common: [step 649]: loss=0.50360 (lr=7.0e-06)
+2020-11-12 11:26:56,472 [INFO] bit_common: Running validation...
+2020-11-12 11:27:00,681 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:27:00,682 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:27:00,682 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:27:00,682 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:27:00,682 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:27:03,652 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:27:06,695 [INFO] bit_common: [step 650]: loss=0.36729 (lr=7.0e-06)
+2020-11-12 11:27:07,357 [INFO] bit_common: [step 651]: loss=0.40752 (lr=7.0e-06)
+2020-11-12 11:27:08,027 [INFO] bit_common: [step 652]: loss=0.36363 (lr=7.0e-06)
+2020-11-12 11:27:08,689 [INFO] bit_common: [step 653]: loss=0.42038 (lr=7.0e-06)
+2020-11-12 11:27:09,349 [INFO] bit_common: [step 654]: loss=0.37888 (lr=7.0e-06)
+2020-11-12 11:27:10,014 [INFO] bit_common: [step 655]: loss=0.43032 (lr=7.0e-06)
+2020-11-12 11:27:10,686 [INFO] bit_common: [step 656]: loss=0.37627 (lr=7.0e-06)
+2020-11-12 11:27:11,345 [INFO] bit_common: [step 657]: loss=0.36521 (lr=7.0e-06)
+2020-11-12 11:27:12,004 [INFO] bit_common: [step 658]: loss=0.39968 (lr=7.0e-06)
+2020-11-12 11:27:12,661 [INFO] bit_common: [step 659]: loss=0.36821 (lr=7.0e-06)
+2020-11-12 11:27:12,845 [INFO] bit_common: Running validation...
+2020-11-12 11:27:16,936 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:27:16,937 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:27:16,937 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:27:16,937 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:27:16,937 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:27:21,204 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:27:24,791 [INFO] bit_common: [step 660]: loss=0.36855 (lr=7.0e-06)
+2020-11-12 11:27:25,460 [INFO] bit_common: [step 661]: loss=0.36431 (lr=7.0e-06)
+2020-11-12 11:27:26,128 [INFO] bit_common: [step 662]: loss=0.41488 (lr=7.0e-06)
+2020-11-12 11:27:26,790 [INFO] bit_common: [step 663]: loss=0.39642 (lr=7.0e-06)
+2020-11-12 11:27:27,441 [INFO] bit_common: [step 664]: loss=0.43693 (lr=7.0e-06)
+2020-11-12 11:27:28,111 [INFO] bit_common: [step 665]: loss=0.38309 (lr=7.0e-06)
+2020-11-12 11:27:28,769 [INFO] bit_common: [step 666]: loss=0.37901 (lr=7.0e-06)
+2020-11-12 11:27:29,426 [INFO] bit_common: [step 667]: loss=0.41361 (lr=7.0e-06)
+2020-11-12 11:27:30,093 [INFO] bit_common: [step 668]: loss=0.36957 (lr=7.0e-06)
+2020-11-12 11:27:30,777 [INFO] bit_common: [step 669]: loss=0.40376 (lr=7.0e-06)
+2020-11-12 11:27:30,960 [INFO] bit_common: Running validation...
+2020-11-12 11:27:34,522 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:27:34,522 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:27:34,523 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:27:34,523 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:27:34,523 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:27:37,837 [INFO] bit_common: top1 95.15%, 
+2020-11-12 11:27:40,760 [INFO] bit_common: [step 670]: loss=0.39673 (lr=7.0e-06)
+2020-11-12 11:27:41,424 [INFO] bit_common: [step 671]: loss=0.37612 (lr=7.0e-06)
+2020-11-12 11:27:42,083 [INFO] bit_common: [step 672]: loss=0.36918 (lr=7.0e-06)
+2020-11-12 11:27:42,284 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:27:42,284 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:27:42,284 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:27:42,284 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:27:42,284 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:27:42,736 [INFO] bit_common: [step 673]: loss=0.36009 (lr=7.0e-06)
+2020-11-12 11:27:43,393 [INFO] bit_common: [step 674]: loss=0.36828 (lr=7.0e-06)
+2020-11-12 11:27:44,080 [INFO] bit_common: [step 675]: loss=0.37670 (lr=7.0e-06)
+2020-11-12 11:27:44,739 [INFO] bit_common: [step 676]: loss=0.36940 (lr=7.0e-06)
+2020-11-12 11:27:45,388 [INFO] bit_common: [step 677]: loss=0.37757 (lr=7.0e-06)
+2020-11-12 11:27:46,049 [INFO] bit_common: [step 678]: loss=0.48540 (lr=7.0e-06)
+2020-11-12 11:27:46,708 [INFO] bit_common: [step 679]: loss=0.44678 (lr=7.0e-06)
+2020-11-12 11:27:46,891 [INFO] bit_common: Running validation...
+2020-11-12 11:27:50,552 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:27:50,553 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:27:50,553 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:27:50,553 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:27:50,553 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:27:54,628 [INFO] bit_common: top1 95.28%, 
+2020-11-12 11:27:57,975 [INFO] bit_common: [step 680]: loss=0.40531 (lr=7.0e-06)
+2020-11-12 11:27:58,636 [INFO] bit_common: [step 681]: loss=0.44967 (lr=7.0e-06)
+2020-11-12 11:27:59,294 [INFO] bit_common: [step 682]: loss=0.37737 (lr=7.0e-06)
+2020-11-12 11:27:59,960 [INFO] bit_common: [step 683]: loss=0.36520 (lr=7.0e-06)
+2020-11-12 11:28:00,612 [INFO] bit_common: [step 684]: loss=0.37338 (lr=7.0e-06)
+2020-11-12 11:28:01,292 [INFO] bit_common: [step 685]: loss=0.40757 (lr=7.0e-06)
+2020-11-12 11:28:01,961 [INFO] bit_common: [step 686]: loss=0.42624 (lr=7.0e-06)
+2020-11-12 11:28:02,626 [INFO] bit_common: [step 687]: loss=0.38670 (lr=7.0e-06)
+2020-11-12 11:28:03,277 [INFO] bit_common: [step 688]: loss=0.57164 (lr=7.0e-06)
+2020-11-12 11:28:03,955 [INFO] bit_common: [step 689]: loss=0.38926 (lr=7.0e-06)
+2020-11-12 11:28:04,138 [INFO] bit_common: Running validation...
+2020-11-12 11:28:07,866 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:28:07,866 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:28:07,866 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:28:07,866 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:28:07,866 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:28:11,788 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:28:15,159 [INFO] bit_common: [step 690]: loss=0.48282 (lr=7.0e-06)
+2020-11-12 11:28:15,823 [INFO] bit_common: [step 691]: loss=0.46152 (lr=7.0e-06)
+2020-11-12 11:28:16,491 [INFO] bit_common: [step 692]: loss=0.38031 (lr=7.0e-06)
+2020-11-12 11:28:17,152 [INFO] bit_common: [step 693]: loss=0.40176 (lr=7.0e-06)
+2020-11-12 11:28:17,814 [INFO] bit_common: [step 694]: loss=0.42338 (lr=7.0e-06)
+2020-11-12 11:28:18,485 [INFO] bit_common: [step 695]: loss=0.36646 (lr=7.0e-06)
+2020-11-12 11:28:19,146 [INFO] bit_common: [step 696]: loss=0.46083 (lr=7.0e-06)
+2020-11-12 11:28:19,808 [INFO] bit_common: [step 697]: loss=0.36983 (lr=7.0e-06)
+2020-11-12 11:28:20,466 [INFO] bit_common: [step 698]: loss=0.37973 (lr=7.0e-06)
+2020-11-12 11:28:21,133 [INFO] bit_common: [step 699]: loss=0.43464 (lr=7.0e-06)
+2020-11-12 11:28:21,316 [INFO] bit_common: Running validation...
+2020-11-12 11:28:25,182 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:28:25,182 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:28:25,182 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:28:25,182 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:28:25,182 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:28:28,765 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:28:32,139 [INFO] bit_common: [step 700]: loss=0.36954 (lr=7.0e-06)
+2020-11-12 11:28:32,798 [INFO] bit_common: [step 701]: loss=0.45014 (lr=7.0e-06)
+2020-11-12 11:28:33,467 [INFO] bit_common: [step 702]: loss=0.44240 (lr=7.0e-06)
+2020-11-12 11:28:34,123 [INFO] bit_common: [step 703]: loss=0.43812 (lr=7.0e-06)
+2020-11-12 11:28:34,784 [INFO] bit_common: [step 704]: loss=0.36649 (lr=7.0e-06)
+2020-11-12 11:28:35,460 [INFO] bit_common: [step 705]: loss=0.36444 (lr=7.0e-06)
+2020-11-12 11:28:36,122 [INFO] bit_common: [step 706]: loss=0.38729 (lr=7.0e-06)
+2020-11-12 11:28:36,776 [INFO] bit_common: [step 707]: loss=0.37852 (lr=7.0e-06)
+2020-11-12 11:28:37,440 [INFO] bit_common: [step 708]: loss=0.38328 (lr=7.0e-06)
+2020-11-12 11:28:38,105 [INFO] bit_common: [step 709]: loss=0.39275 (lr=7.0e-06)
+2020-11-12 11:28:38,285 [INFO] bit_common: Running validation...
+2020-11-12 11:28:42,250 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:28:42,250 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:28:42,250 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:28:42,250 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:28:42,250 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:28:46,033 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:28:49,403 [INFO] bit_common: [step 710]: loss=0.36814 (lr=7.0e-06)
+2020-11-12 11:28:50,068 [INFO] bit_common: [step 711]: loss=0.37476 (lr=7.0e-06)
+2020-11-12 11:28:50,732 [INFO] bit_common: [step 712]: loss=0.45911 (lr=7.0e-06)
+2020-11-12 11:28:51,408 [INFO] bit_common: [step 713]: loss=0.37995 (lr=7.0e-06)
+2020-11-12 11:28:52,079 [INFO] bit_common: [step 714]: loss=0.39519 (lr=7.0e-06)
+2020-11-12 11:28:52,763 [INFO] bit_common: [step 715]: loss=0.38823 (lr=7.0e-06)
+2020-11-12 11:28:53,421 [INFO] bit_common: [step 716]: loss=0.49711 (lr=7.0e-06)
+2020-11-12 11:28:54,071 [INFO] bit_common: [step 717]: loss=0.50663 (lr=7.0e-06)
+2020-11-12 11:28:54,741 [INFO] bit_common: [step 718]: loss=0.39316 (lr=7.0e-06)
+2020-11-12 11:28:55,403 [INFO] bit_common: [step 719]: loss=0.37377 (lr=7.0e-06)
+2020-11-12 11:28:55,586 [INFO] bit_common: Running validation...
+2020-11-12 11:28:59,478 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:28:59,478 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:28:59,479 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:28:59,479 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:28:59,479 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:29:02,926 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:29:06,338 [INFO] bit_common: [step 720]: loss=0.38364 (lr=7.0e-06)
+2020-11-12 11:29:07,003 [INFO] bit_common: [step 721]: loss=0.38920 (lr=7.0e-06)
+2020-11-12 11:29:07,667 [INFO] bit_common: [step 722]: loss=0.40133 (lr=7.0e-06)
+2020-11-12 11:29:08,327 [INFO] bit_common: [step 723]: loss=0.39260 (lr=7.0e-06)
+2020-11-12 11:29:08,994 [INFO] bit_common: [step 724]: loss=0.43674 (lr=7.0e-06)
+2020-11-12 11:29:09,658 [INFO] bit_common: [step 725]: loss=0.36561 (lr=7.0e-06)
+2020-11-12 11:29:10,316 [INFO] bit_common: [step 726]: loss=0.39687 (lr=7.0e-06)
+2020-11-12 11:29:10,993 [INFO] bit_common: [step 727]: loss=0.37254 (lr=7.0e-06)
+2020-11-12 11:29:11,653 [INFO] bit_common: [step 728]: loss=0.37255 (lr=7.0e-06)
+2020-11-12 11:29:12,327 [INFO] bit_common: [step 729]: loss=0.36789 (lr=7.0e-06)
+2020-11-12 11:29:12,517 [INFO] bit_common: Running validation...
+2020-11-12 11:29:16,819 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:29:16,819 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:29:16,819 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:29:16,819 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:29:16,819 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:29:20,225 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:29:23,721 [INFO] bit_common: [step 730]: loss=0.36447 (lr=7.0e-06)
+2020-11-12 11:29:24,392 [INFO] bit_common: [step 731]: loss=0.50209 (lr=7.0e-06)
+2020-11-12 11:29:25,063 [INFO] bit_common: [step 732]: loss=0.45413 (lr=7.0e-06)
+2020-11-12 11:29:25,731 [INFO] bit_common: [step 733]: loss=0.40501 (lr=7.0e-06)
+2020-11-12 11:29:26,387 [INFO] bit_common: [step 734]: loss=0.41995 (lr=7.0e-06)
+2020-11-12 11:29:27,068 [INFO] bit_common: [step 735]: loss=0.40900 (lr=7.0e-06)
+2020-11-12 11:29:27,732 [INFO] bit_common: [step 736]: loss=0.37317 (lr=7.0e-06)
+2020-11-12 11:29:28,397 [INFO] bit_common: [step 737]: loss=0.37311 (lr=7.0e-06)
+2020-11-12 11:29:29,051 [INFO] bit_common: [step 738]: loss=0.36451 (lr=7.0e-06)
+2020-11-12 11:29:29,713 [INFO] bit_common: [step 739]: loss=0.36812 (lr=7.0e-06)
+2020-11-12 11:29:29,893 [INFO] bit_common: Running validation...
+2020-11-12 11:29:34,318 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:29:34,318 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:29:34,318 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:29:34,318 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:29:34,318 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:29:37,259 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:29:40,687 [INFO] bit_common: [step 740]: loss=0.36324 (lr=7.0e-06)
+2020-11-12 11:29:41,348 [INFO] bit_common: [step 741]: loss=0.41204 (lr=7.0e-06)
+2020-11-12 11:29:42,000 [INFO] bit_common: [step 742]: loss=0.36147 (lr=7.0e-06)
+2020-11-12 11:29:42,661 [INFO] bit_common: [step 743]: loss=0.39044 (lr=7.0e-06)
+2020-11-12 11:29:43,322 [INFO] bit_common: [step 744]: loss=0.37402 (lr=7.0e-06)
+2020-11-12 11:29:43,976 [INFO] bit_common: [step 745]: loss=0.36295 (lr=7.0e-06)
+2020-11-12 11:29:44,638 [INFO] bit_common: [step 746]: loss=0.44770 (lr=7.0e-06)
+2020-11-12 11:29:45,314 [INFO] bit_common: [step 747]: loss=0.40523 (lr=7.0e-06)
+2020-11-12 11:29:45,971 [INFO] bit_common: [step 748]: loss=0.43040 (lr=7.0e-06)
+2020-11-12 11:29:46,629 [INFO] bit_common: [step 749]: loss=0.37536 (lr=7.0e-06)
+2020-11-12 11:29:46,810 [INFO] bit_common: Running validation...
+2020-11-12 11:29:50,851 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:29:50,851 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:29:50,851 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:29:50,851 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:29:50,851 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:29:54,523 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:29:58,110 [INFO] bit_common: [step 750]: loss=0.36399 (lr=7.0e-06)
+2020-11-12 11:29:58,777 [INFO] bit_common: [step 751]: loss=0.37299 (lr=7.0e-06)
+2020-11-12 11:29:59,449 [INFO] bit_common: [step 752]: loss=0.43900 (lr=7.0e-06)
+2020-11-12 11:30:00,110 [INFO] bit_common: [step 753]: loss=0.36798 (lr=7.0e-06)
+2020-11-12 11:30:00,770 [INFO] bit_common: [step 754]: loss=0.38518 (lr=7.0e-06)
+2020-11-12 11:30:01,433 [INFO] bit_common: [step 755]: loss=0.37201 (lr=7.0e-06)
+2020-11-12 11:30:02,123 [INFO] bit_common: [step 756]: loss=0.37896 (lr=7.0e-06)
+2020-11-12 11:30:02,781 [INFO] bit_common: [step 757]: loss=0.36747 (lr=7.0e-06)
+2020-11-12 11:30:03,431 [INFO] bit_common: [step 758]: loss=0.42980 (lr=7.0e-06)
+2020-11-12 11:30:04,082 [INFO] bit_common: [step 759]: loss=0.41841 (lr=7.0e-06)
+2020-11-12 11:30:04,264 [INFO] bit_common: Running validation...
+2020-11-12 11:30:07,820 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:30:07,821 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:30:07,821 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:30:07,821 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:30:07,821 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:30:11,208 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:30:14,693 [INFO] bit_common: [step 760]: loss=0.41787 (lr=7.0e-06)
+2020-11-12 11:30:15,354 [INFO] bit_common: [step 761]: loss=0.36562 (lr=7.0e-06)
+2020-11-12 11:30:16,031 [INFO] bit_common: [step 762]: loss=0.42549 (lr=7.0e-06)
+2020-11-12 11:30:16,699 [INFO] bit_common: [step 763]: loss=0.40476 (lr=7.0e-06)
+2020-11-12 11:30:17,365 [INFO] bit_common: [step 764]: loss=0.37115 (lr=7.0e-06)
+2020-11-12 11:30:18,024 [INFO] bit_common: [step 765]: loss=0.37487 (lr=7.0e-06)
+2020-11-12 11:30:18,696 [INFO] bit_common: [step 766]: loss=0.36320 (lr=7.0e-06)
+2020-11-12 11:30:19,367 [INFO] bit_common: [step 767]: loss=0.37193 (lr=7.0e-06)
+2020-11-12 11:30:20,032 [INFO] bit_common: [step 768]: loss=0.37119 (lr=7.0e-06)
+2020-11-12 11:30:20,697 [INFO] bit_common: [step 769]: loss=0.38292 (lr=7.0e-06)
+2020-11-12 11:30:20,877 [INFO] bit_common: Running validation...
+2020-11-12 11:30:24,990 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:30:24,991 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:30:24,991 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:30:24,991 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:30:24,991 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:30:28,472 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:30:31,958 [INFO] bit_common: [step 770]: loss=0.37546 (lr=7.0e-06)
+2020-11-12 11:30:32,607 [INFO] bit_common: [step 771]: loss=0.41416 (lr=7.0e-06)
+2020-11-12 11:30:33,276 [INFO] bit_common: [step 772]: loss=0.38602 (lr=7.0e-06)
+2020-11-12 11:30:33,936 [INFO] bit_common: [step 773]: loss=0.36927 (lr=7.0e-06)
+2020-11-12 11:30:34,609 [INFO] bit_common: [step 774]: loss=0.39083 (lr=7.0e-06)
+2020-11-12 11:30:35,272 [INFO] bit_common: [step 775]: loss=0.36162 (lr=7.0e-06)
+2020-11-12 11:30:35,931 [INFO] bit_common: [step 776]: loss=0.38121 (lr=7.0e-06)
+2020-11-12 11:30:36,588 [INFO] bit_common: [step 777]: loss=0.37599 (lr=7.0e-06)
+2020-11-12 11:30:37,243 [INFO] bit_common: [step 778]: loss=0.37936 (lr=7.0e-06)
+2020-11-12 11:30:37,904 [INFO] bit_common: [step 779]: loss=0.39723 (lr=7.0e-06)
+2020-11-12 11:30:38,091 [INFO] bit_common: Running validation...
+2020-11-12 11:30:41,723 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:30:41,723 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:30:41,723 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:30:41,723 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:30:41,723 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:30:45,765 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:30:49,290 [INFO] bit_common: [step 780]: loss=0.36209 (lr=7.0e-06)
+2020-11-12 11:30:49,957 [INFO] bit_common: [step 781]: loss=0.37319 (lr=7.0e-06)
+2020-11-12 11:30:50,618 [INFO] bit_common: [step 782]: loss=0.54470 (lr=7.0e-06)
+2020-11-12 11:30:51,277 [INFO] bit_common: [step 783]: loss=0.49087 (lr=7.0e-06)
+2020-11-12 11:30:51,366 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:30:51,366 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:30:51,367 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:30:51,367 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:30:51,367 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:30:51,935 [INFO] bit_common: [step 784]: loss=0.40924 (lr=7.0e-06)
+2020-11-12 11:30:52,590 [INFO] bit_common: [step 785]: loss=0.42557 (lr=7.0e-06)
+2020-11-12 11:30:53,258 [INFO] bit_common: [step 786]: loss=0.37152 (lr=7.0e-06)
+2020-11-12 11:30:53,921 [INFO] bit_common: [step 787]: loss=0.38253 (lr=7.0e-06)
+2020-11-12 11:30:54,553 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:30:54,553 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:30:54,553 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:30:54,553 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:30:54,553 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:30:54,579 [INFO] bit_common: [step 788]: loss=0.38677 (lr=7.0e-06)
+2020-11-12 11:30:55,235 [INFO] bit_common: [step 789]: loss=0.44191 (lr=7.0e-06)
+2020-11-12 11:30:55,421 [INFO] bit_common: Running validation...
+2020-11-12 11:30:59,570 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:30:59,570 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:30:59,570 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:30:59,571 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:30:59,571 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:31:02,950 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:31:06,515 [INFO] bit_common: [step 790]: loss=0.39416 (lr=7.0e-06)
+2020-11-12 11:31:07,182 [INFO] bit_common: [step 791]: loss=0.36853 (lr=7.0e-06)
+2020-11-12 11:31:07,847 [INFO] bit_common: [step 792]: loss=0.44268 (lr=7.0e-06)
+2020-11-12 11:31:08,510 [INFO] bit_common: [step 793]: loss=0.43200 (lr=7.0e-06)
+2020-11-12 11:31:09,173 [INFO] bit_common: [step 794]: loss=0.36511 (lr=7.0e-06)
+2020-11-12 11:31:09,857 [INFO] bit_common: [step 795]: loss=0.38893 (lr=7.0e-06)
+2020-11-12 11:31:10,528 [INFO] bit_common: [step 796]: loss=0.42455 (lr=7.0e-06)
+2020-11-12 11:31:11,185 [INFO] bit_common: [step 797]: loss=0.40966 (lr=7.0e-06)
+2020-11-12 11:31:11,846 [INFO] bit_common: [step 798]: loss=0.37926 (lr=7.0e-06)
+2020-11-12 11:31:12,512 [INFO] bit_common: [step 799]: loss=0.36160 (lr=7.0e-06)
+2020-11-12 11:31:12,697 [INFO] bit_common: Running validation...
+2020-11-12 11:31:16,347 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:31:16,348 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:31:16,348 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:31:16,348 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:31:16,348 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:31:20,114 [INFO] bit_common: top1 95.56%, 
+2020-11-12 11:31:23,810 [INFO] bit_common: [step 800]: loss=0.40110 (lr=7.0e-06)
+2020-11-12 11:31:24,471 [INFO] bit_common: [step 801]: loss=0.36834 (lr=7.0e-06)
+2020-11-12 11:31:25,139 [INFO] bit_common: [step 802]: loss=0.36156 (lr=7.0e-06)
+2020-11-12 11:31:25,811 [INFO] bit_common: [step 803]: loss=0.41909 (lr=7.0e-06)
+2020-11-12 11:31:26,485 [INFO] bit_common: [step 804]: loss=0.49945 (lr=7.0e-06)
+2020-11-12 11:31:27,153 [INFO] bit_common: [step 805]: loss=0.39118 (lr=7.0e-06)
+2020-11-12 11:31:27,820 [INFO] bit_common: [step 806]: loss=0.42263 (lr=7.0e-06)
+2020-11-12 11:31:28,477 [INFO] bit_common: [step 807]: loss=0.47884 (lr=7.0e-06)
+2020-11-12 11:31:29,135 [INFO] bit_common: [step 808]: loss=0.43889 (lr=7.0e-06)
+2020-11-12 11:31:29,805 [INFO] bit_common: [step 809]: loss=0.36723 (lr=7.0e-06)
+2020-11-12 11:31:29,987 [INFO] bit_common: Running validation...
+2020-11-12 11:31:33,530 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:31:33,530 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:31:33,530 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:31:33,530 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:31:33,530 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:31:37,368 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:31:40,864 [INFO] bit_common: [step 810]: loss=0.37463 (lr=7.0e-06)
+2020-11-12 11:31:41,308 [INFO] bit_common: [step 811]: loss=0.41253 (lr=7.0e-06)
+2020-11-12 11:31:45,101 [INFO] bit_common: [step 812]: loss=0.36913 (lr=7.0e-06)
+2020-11-12 11:31:45,775 [INFO] bit_common: [step 813]: loss=0.40985 (lr=7.0e-06)
+2020-11-12 11:31:46,452 [INFO] bit_common: [step 814]: loss=0.42948 (lr=7.0e-06)
+2020-11-12 11:31:47,109 [INFO] bit_common: [step 815]: loss=0.38945 (lr=7.0e-06)
+2020-11-12 11:31:47,784 [INFO] bit_common: [step 816]: loss=0.42123 (lr=7.0e-06)
+2020-11-12 11:31:48,433 [INFO] bit_common: [step 817]: loss=0.39101 (lr=7.0e-06)
+2020-11-12 11:31:49,091 [INFO] bit_common: [step 818]: loss=0.39611 (lr=7.0e-06)
+2020-11-12 11:31:49,758 [INFO] bit_common: [step 819]: loss=0.38292 (lr=7.0e-06)
+2020-11-12 11:31:49,941 [INFO] bit_common: Running validation...
+2020-11-12 11:31:54,138 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:31:54,139 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:31:54,139 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:31:54,139 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:31:54,139 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:31:57,537 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:31:59,933 [INFO] bit_common: [step 820]: loss=0.39794 (lr=7.0e-06)
+2020-11-12 11:32:00,597 [INFO] bit_common: [step 821]: loss=0.36815 (lr=7.0e-06)
+2020-11-12 11:32:01,264 [INFO] bit_common: [step 822]: loss=0.36399 (lr=7.0e-06)
+2020-11-12 11:32:01,932 [INFO] bit_common: [step 823]: loss=0.37745 (lr=7.0e-06)
+2020-11-12 11:32:02,599 [INFO] bit_common: [step 824]: loss=0.36079 (lr=7.0e-06)
+2020-11-12 11:32:03,269 [INFO] bit_common: [step 825]: loss=0.41108 (lr=7.0e-06)
+2020-11-12 11:32:03,920 [INFO] bit_common: [step 826]: loss=0.48486 (lr=7.0e-06)
+2020-11-12 11:32:04,589 [INFO] bit_common: [step 827]: loss=0.37476 (lr=7.0e-06)
+2020-11-12 11:32:05,243 [INFO] bit_common: [step 828]: loss=0.36537 (lr=7.0e-06)
+2020-11-12 11:32:05,921 [INFO] bit_common: [step 829]: loss=0.38943 (lr=7.0e-06)
+2020-11-12 11:32:06,101 [INFO] bit_common: Running validation...
+2020-11-12 11:32:10,377 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:32:10,377 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:32:10,377 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:32:10,377 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:32:10,377 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:32:13,967 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:32:16,271 [INFO] bit_common: [step 830]: loss=0.38722 (lr=7.0e-06)
+2020-11-12 11:32:16,936 [INFO] bit_common: [step 831]: loss=0.50693 (lr=7.0e-06)
+2020-11-12 11:32:17,602 [INFO] bit_common: [step 832]: loss=0.36869 (lr=7.0e-06)
+2020-11-12 11:32:18,276 [INFO] bit_common: [step 833]: loss=0.39749 (lr=7.0e-06)
+2020-11-12 11:32:18,949 [INFO] bit_common: [step 834]: loss=0.38404 (lr=7.0e-06)
+2020-11-12 11:32:19,605 [INFO] bit_common: [step 835]: loss=0.38682 (lr=7.0e-06)
+2020-11-12 11:32:20,257 [INFO] bit_common: [step 836]: loss=0.36328 (lr=7.0e-06)
+2020-11-12 11:32:20,915 [INFO] bit_common: [step 837]: loss=0.38196 (lr=7.0e-06)
+2020-11-12 11:32:21,580 [INFO] bit_common: [step 838]: loss=0.36919 (lr=7.0e-06)
+2020-11-12 11:32:22,247 [INFO] bit_common: [step 839]: loss=0.42683 (lr=7.0e-06)
+2020-11-12 11:32:22,428 [INFO] bit_common: Running validation...
+2020-11-12 11:32:26,461 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:32:26,461 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:32:26,461 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:32:26,461 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:32:26,461 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:32:29,937 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:32:32,562 [INFO] bit_common: [step 840]: loss=0.42334 (lr=7.0e-06)
+2020-11-12 11:32:33,238 [INFO] bit_common: [step 841]: loss=0.41227 (lr=7.0e-06)
+2020-11-12 11:32:33,897 [INFO] bit_common: [step 842]: loss=0.35837 (lr=7.0e-06)
+2020-11-12 11:32:34,564 [INFO] bit_common: [step 843]: loss=0.39912 (lr=7.0e-06)
+2020-11-12 11:32:35,228 [INFO] bit_common: [step 844]: loss=0.36824 (lr=7.0e-06)
+2020-11-12 11:32:35,890 [INFO] bit_common: [step 845]: loss=0.37508 (lr=7.0e-06)
+2020-11-12 11:32:36,560 [INFO] bit_common: [step 846]: loss=0.40778 (lr=7.0e-06)
+2020-11-12 11:32:37,252 [INFO] bit_common: [step 847]: loss=0.38346 (lr=7.0e-06)
+2020-11-12 11:32:37,918 [INFO] bit_common: [step 848]: loss=0.39954 (lr=7.0e-06)
+2020-11-12 11:32:38,594 [INFO] bit_common: [step 849]: loss=0.39103 (lr=7.0e-06)
+2020-11-12 11:32:38,779 [INFO] bit_common: Running validation...
+2020-11-12 11:32:42,445 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:32:42,446 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:32:42,446 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:32:42,446 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:32:42,446 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:32:46,808 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:32:50,001 [INFO] bit_common: [step 850]: loss=0.43368 (lr=7.0e-06)
+2020-11-12 11:32:50,665 [INFO] bit_common: [step 851]: loss=0.43628 (lr=7.0e-06)
+2020-11-12 11:32:51,332 [INFO] bit_common: [step 852]: loss=0.36871 (lr=7.0e-06)
+2020-11-12 11:32:51,997 [INFO] bit_common: [step 853]: loss=0.39160 (lr=7.0e-06)
+2020-11-12 11:32:52,651 [INFO] bit_common: [step 854]: loss=0.39001 (lr=7.0e-06)
+2020-11-12 11:32:53,313 [INFO] bit_common: [step 855]: loss=0.37952 (lr=7.0e-06)
+2020-11-12 11:32:53,982 [INFO] bit_common: [step 856]: loss=0.38214 (lr=7.0e-06)
+2020-11-12 11:32:54,636 [INFO] bit_common: [step 857]: loss=0.36991 (lr=7.0e-06)
+2020-11-12 11:32:55,298 [INFO] bit_common: [step 858]: loss=0.36585 (lr=7.0e-06)
+2020-11-12 11:32:55,974 [INFO] bit_common: [step 859]: loss=0.38126 (lr=7.0e-06)
+2020-11-12 11:32:56,158 [INFO] bit_common: Running validation...
+2020-11-12 11:33:00,341 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:33:00,341 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:33:00,342 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:33:00,342 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:33:00,342 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:33:03,481 [INFO] bit_common: top1 95.56%, 
+2020-11-12 11:33:06,500 [INFO] bit_common: [step 860]: loss=0.37759 (lr=7.0e-06)
+2020-11-12 11:33:07,153 [INFO] bit_common: [step 861]: loss=0.38398 (lr=7.0e-06)
+2020-11-12 11:33:07,809 [INFO] bit_common: [step 862]: loss=0.43282 (lr=7.0e-06)
+2020-11-12 11:33:08,494 [INFO] bit_common: [step 863]: loss=0.36547 (lr=7.0e-06)
+2020-11-12 11:33:09,144 [INFO] bit_common: [step 864]: loss=0.41035 (lr=7.0e-06)
+2020-11-12 11:33:09,797 [INFO] bit_common: [step 865]: loss=0.42559 (lr=7.0e-06)
+2020-11-12 11:33:10,454 [INFO] bit_common: [step 866]: loss=0.45350 (lr=7.0e-06)
+2020-11-12 11:33:11,119 [INFO] bit_common: [step 867]: loss=0.40964 (lr=7.0e-06)
+2020-11-12 11:33:11,331 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:33:11,331 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:33:11,331 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:33:11,331 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:33:11,331 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:33:11,786 [INFO] bit_common: [step 868]: loss=0.38421 (lr=7.0e-06)
+2020-11-12 11:33:12,448 [INFO] bit_common: [step 869]: loss=0.39381 (lr=7.0e-06)
+2020-11-12 11:33:12,635 [INFO] bit_common: Running validation...
+2020-11-12 11:33:16,402 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:33:16,402 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:33:16,402 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:33:16,402 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:33:16,402 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:33:20,151 [INFO] bit_common: top1 95.56%, 
+2020-11-12 11:33:23,141 [INFO] bit_common: [step 870]: loss=0.42494 (lr=7.0e-06)
+2020-11-12 11:33:23,816 [INFO] bit_common: [step 871]: loss=0.37146 (lr=7.0e-06)
+2020-11-12 11:33:24,484 [INFO] bit_common: [step 872]: loss=0.41068 (lr=7.0e-06)
+2020-11-12 11:33:25,147 [INFO] bit_common: [step 873]: loss=0.47741 (lr=7.0e-06)
+2020-11-12 11:33:25,826 [INFO] bit_common: [step 874]: loss=0.36343 (lr=7.0e-06)
+2020-11-12 11:33:26,499 [INFO] bit_common: [step 875]: loss=0.36493 (lr=7.0e-06)
+2020-11-12 11:33:27,165 [INFO] bit_common: [step 876]: loss=0.36089 (lr=7.0e-06)
+2020-11-12 11:33:27,841 [INFO] bit_common: [step 877]: loss=0.37545 (lr=7.0e-06)
+2020-11-12 11:33:28,509 [INFO] bit_common: [step 878]: loss=0.39834 (lr=7.0e-06)
+2020-11-12 11:33:29,178 [INFO] bit_common: [step 879]: loss=0.43307 (lr=7.0e-06)
+2020-11-12 11:33:29,364 [INFO] bit_common: Running validation...
+2020-11-12 11:33:32,767 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:33:32,767 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:33:32,767 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:33:32,767 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:33:32,767 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:33:37,089 [INFO] bit_common: top1 95.56%, 
+2020-11-12 11:33:40,445 [INFO] bit_common: [step 880]: loss=0.39865 (lr=7.0e-06)
+2020-11-12 11:33:41,109 [INFO] bit_common: [step 881]: loss=0.45249 (lr=7.0e-06)
+2020-11-12 11:33:41,766 [INFO] bit_common: [step 882]: loss=0.37276 (lr=7.0e-06)
+2020-11-12 11:33:42,421 [INFO] bit_common: [step 883]: loss=0.42014 (lr=7.0e-06)
+2020-11-12 11:33:43,096 [INFO] bit_common: [step 884]: loss=0.38268 (lr=7.0e-06)
+2020-11-12 11:33:43,761 [INFO] bit_common: [step 885]: loss=0.37344 (lr=7.0e-06)
+2020-11-12 11:33:44,419 [INFO] bit_common: [step 886]: loss=0.47108 (lr=7.0e-06)
+2020-11-12 11:33:45,080 [INFO] bit_common: [step 887]: loss=0.37353 (lr=7.0e-06)
+2020-11-12 11:33:45,741 [INFO] bit_common: [step 888]: loss=0.36824 (lr=7.0e-06)
+2020-11-12 11:33:46,404 [INFO] bit_common: [step 889]: loss=0.46335 (lr=7.0e-06)
+2020-11-12 11:33:46,589 [INFO] bit_common: Running validation...
+2020-11-12 11:33:50,538 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:33:50,539 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:33:50,539 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:33:50,539 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:33:50,539 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:33:54,644 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:33:58,340 [INFO] bit_common: [step 890]: loss=0.38450 (lr=7.0e-06)
+2020-11-12 11:33:58,999 [INFO] bit_common: [step 891]: loss=0.46674 (lr=7.0e-06)
+2020-11-12 11:33:59,671 [INFO] bit_common: [step 892]: loss=0.41190 (lr=7.0e-06)
+2020-11-12 11:34:00,336 [INFO] bit_common: [step 893]: loss=0.41130 (lr=7.0e-06)
+2020-11-12 11:34:00,995 [INFO] bit_common: [step 894]: loss=0.45043 (lr=7.0e-06)
+2020-11-12 11:34:01,647 [INFO] bit_common: [step 895]: loss=0.47372 (lr=7.0e-06)
+2020-11-12 11:34:02,313 [INFO] bit_common: [step 896]: loss=0.36046 (lr=7.0e-06)
+2020-11-12 11:34:02,425 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:34:02,426 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:34:02,426 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:34:02,426 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:34:02,426 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:34:02,994 [INFO] bit_common: [step 897]: loss=0.40740 (lr=7.0e-06)
+2020-11-12 11:34:03,652 [INFO] bit_common: [step 898]: loss=0.43971 (lr=7.0e-06)
+2020-11-12 11:34:04,331 [INFO] bit_common: [step 899]: loss=0.49136 (lr=7.0e-06)
+2020-11-12 11:34:04,512 [INFO] bit_common: Running validation...
+2020-11-12 11:34:08,562 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:34:08,563 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:34:08,563 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:34:08,563 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:34:08,563 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:34:12,018 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:34:15,832 [INFO] bit_common: [step 900]: loss=0.37615 (lr=7.0e-06)
+2020-11-12 11:34:16,506 [INFO] bit_common: [step 901]: loss=0.41659 (lr=7.0e-07)
+2020-11-12 11:34:17,172 [INFO] bit_common: [step 902]: loss=0.36432 (lr=7.0e-07)
+2020-11-12 11:34:17,384 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:34:17,384 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:34:17,384 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:34:17,384 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:34:17,384 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:34:17,837 [INFO] bit_common: [step 903]: loss=0.40120 (lr=7.0e-07)
+2020-11-12 11:34:18,043 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:34:18,043 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:34:18,043 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:34:18,043 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:34:18,043 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:34:18,501 [INFO] bit_common: [step 904]: loss=0.41278 (lr=7.0e-07)
+2020-11-12 11:34:19,169 [INFO] bit_common: [step 905]: loss=0.37494 (lr=7.0e-07)
+2020-11-12 11:34:19,821 [INFO] bit_common: [step 906]: loss=0.42087 (lr=7.0e-07)
+2020-11-12 11:34:20,481 [INFO] bit_common: [step 907]: loss=0.42114 (lr=7.0e-07)
+2020-11-12 11:34:21,129 [INFO] bit_common: [step 908]: loss=0.44767 (lr=7.0e-07)
+2020-11-12 11:34:21,801 [INFO] bit_common: [step 909]: loss=0.39989 (lr=7.0e-07)
+2020-11-12 11:34:21,985 [INFO] bit_common: Running validation...
+2020-11-12 11:34:25,732 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:34:25,732 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:34:25,732 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:34:25,732 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:34:25,732 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:34:28,819 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:34:32,004 [INFO] bit_common: [step 910]: loss=0.38135 (lr=7.0e-07)
+2020-11-12 11:34:32,664 [INFO] bit_common: [step 911]: loss=0.38523 (lr=7.0e-07)
+2020-11-12 11:34:33,324 [INFO] bit_common: [step 912]: loss=0.46505 (lr=7.0e-07)
+2020-11-12 11:34:33,989 [INFO] bit_common: [step 913]: loss=0.38043 (lr=7.0e-07)
+2020-11-12 11:34:34,652 [INFO] bit_common: [step 914]: loss=0.38227 (lr=7.0e-07)
+2020-11-12 11:34:35,327 [INFO] bit_common: [step 915]: loss=0.50093 (lr=7.0e-07)
+2020-11-12 11:34:35,997 [INFO] bit_common: [step 916]: loss=0.36373 (lr=7.0e-07)
+2020-11-12 11:34:36,664 [INFO] bit_common: [step 917]: loss=0.38352 (lr=7.0e-07)
+2020-11-12 11:34:37,331 [INFO] bit_common: [step 918]: loss=0.38727 (lr=7.0e-07)
+2020-11-12 11:34:37,998 [INFO] bit_common: [step 919]: loss=0.38297 (lr=7.0e-07)
+2020-11-12 11:34:38,180 [INFO] bit_common: Running validation...
+2020-11-12 11:34:42,241 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:34:42,241 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:34:42,241 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:34:42,241 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:34:42,241 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:34:45,287 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:34:47,966 [INFO] bit_common: [step 920]: loss=0.38327 (lr=7.0e-07)
+2020-11-12 11:34:48,635 [INFO] bit_common: [step 921]: loss=0.41067 (lr=7.0e-07)
+2020-11-12 11:34:49,294 [INFO] bit_common: [step 922]: loss=0.45045 (lr=7.0e-07)
+2020-11-12 11:34:49,951 [INFO] bit_common: [step 923]: loss=0.35894 (lr=7.0e-07)
+2020-11-12 11:34:50,618 [INFO] bit_common: [step 924]: loss=0.37152 (lr=7.0e-07)
+2020-11-12 11:34:51,291 [INFO] bit_common: [step 925]: loss=0.39489 (lr=7.0e-07)
+2020-11-12 11:34:51,956 [INFO] bit_common: [step 926]: loss=0.38176 (lr=7.0e-07)
+2020-11-12 11:34:52,620 [INFO] bit_common: [step 927]: loss=0.40463 (lr=7.0e-07)
+2020-11-12 11:34:53,273 [INFO] bit_common: [step 928]: loss=0.38840 (lr=7.0e-07)
+2020-11-12 11:34:53,927 [INFO] bit_common: [step 929]: loss=0.36699 (lr=7.0e-07)
+2020-11-12 11:34:54,107 [INFO] bit_common: Running validation...
+2020-11-12 11:34:57,883 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:34:57,883 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:34:57,883 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:34:57,883 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:34:57,883 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:35:01,199 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:35:03,534 [INFO] bit_common: [step 930]: loss=0.36255 (lr=7.0e-07)
+2020-11-12 11:35:04,219 [INFO] bit_common: [step 931]: loss=0.36144 (lr=7.0e-07)
+2020-11-12 11:35:04,881 [INFO] bit_common: [step 932]: loss=0.41687 (lr=7.0e-07)
+2020-11-12 11:35:05,542 [INFO] bit_common: [step 933]: loss=0.37470 (lr=7.0e-07)
+2020-11-12 11:35:06,211 [INFO] bit_common: [step 934]: loss=0.36743 (lr=7.0e-07)
+2020-11-12 11:35:06,885 [INFO] bit_common: [step 935]: loss=0.35503 (lr=7.0e-07)
+2020-11-12 11:35:07,535 [INFO] bit_common: [step 936]: loss=0.39774 (lr=7.0e-07)
+2020-11-12 11:35:08,192 [INFO] bit_common: [step 937]: loss=0.36988 (lr=7.0e-07)
+2020-11-12 11:35:08,885 [INFO] bit_common: [step 938]: loss=0.44204 (lr=7.0e-07)
+2020-11-12 11:35:09,548 [INFO] bit_common: [step 939]: loss=0.44830 (lr=7.0e-07)
+2020-11-12 11:35:09,731 [INFO] bit_common: Running validation...
+2020-11-12 11:35:13,192 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:35:13,192 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:35:13,192 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:35:13,192 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:35:13,192 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:35:17,065 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:35:19,384 [INFO] bit_common: [step 940]: loss=0.39443 (lr=7.0e-07)
+2020-11-12 11:35:20,034 [INFO] bit_common: [step 941]: loss=0.42799 (lr=7.0e-07)
+2020-11-12 11:35:20,694 [INFO] bit_common: [step 942]: loss=0.39018 (lr=7.0e-07)
+2020-11-12 11:35:21,357 [INFO] bit_common: [step 943]: loss=0.39353 (lr=7.0e-07)
+2020-11-12 11:35:22,034 [INFO] bit_common: [step 944]: loss=0.47972 (lr=7.0e-07)
+2020-11-12 11:35:22,698 [INFO] bit_common: [step 945]: loss=0.38113 (lr=7.0e-07)
+2020-11-12 11:35:23,362 [INFO] bit_common: [step 946]: loss=0.42894 (lr=7.0e-07)
+2020-11-12 11:35:24,017 [INFO] bit_common: [step 947]: loss=0.36590 (lr=7.0e-07)
+2020-11-12 11:35:24,684 [INFO] bit_common: [step 948]: loss=0.36316 (lr=7.0e-07)
+2020-11-12 11:35:25,366 [INFO] bit_common: [step 949]: loss=0.43107 (lr=7.0e-07)
+2020-11-12 11:35:25,546 [INFO] bit_common: Running validation...
+2020-11-12 11:35:29,678 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:35:29,679 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:35:29,679 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:35:29,679 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:35:29,679 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:35:32,566 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:35:34,914 [INFO] bit_common: [step 950]: loss=0.44184 (lr=7.0e-07)
+2020-11-12 11:35:35,582 [INFO] bit_common: [step 951]: loss=0.46593 (lr=7.0e-07)
+2020-11-12 11:35:36,262 [INFO] bit_common: [step 952]: loss=0.38032 (lr=7.0e-07)
+2020-11-12 11:35:36,917 [INFO] bit_common: [step 953]: loss=0.38918 (lr=7.0e-07)
+2020-11-12 11:35:37,606 [INFO] bit_common: [step 954]: loss=0.36385 (lr=7.0e-07)
+2020-11-12 11:35:38,277 [INFO] bit_common: [step 955]: loss=0.38880 (lr=7.0e-07)
+2020-11-12 11:35:38,946 [INFO] bit_common: [step 956]: loss=0.37058 (lr=7.0e-07)
+2020-11-12 11:35:39,624 [INFO] bit_common: [step 957]: loss=0.37031 (lr=7.0e-07)
+2020-11-12 11:35:40,293 [INFO] bit_common: [step 958]: loss=0.39654 (lr=7.0e-07)
+2020-11-12 11:35:40,958 [INFO] bit_common: [step 959]: loss=0.38001 (lr=7.0e-07)
+2020-11-12 11:35:41,144 [INFO] bit_common: Running validation...
+2020-11-12 11:35:44,470 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:35:44,471 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:35:44,471 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:35:44,471 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:35:44,471 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:35:47,984 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:35:50,316 [INFO] bit_common: [step 960]: loss=0.37205 (lr=7.0e-07)
+2020-11-12 11:35:50,968 [INFO] bit_common: [step 961]: loss=0.38856 (lr=7.0e-07)
+2020-11-12 11:35:51,632 [INFO] bit_common: [step 962]: loss=0.42229 (lr=7.0e-07)
+2020-11-12 11:35:52,300 [INFO] bit_common: [step 963]: loss=0.38559 (lr=7.0e-07)
+2020-11-12 11:35:52,968 [INFO] bit_common: [step 964]: loss=0.39077 (lr=7.0e-07)
+2020-11-12 11:35:53,626 [INFO] bit_common: [step 965]: loss=0.36416 (lr=7.0e-07)
+2020-11-12 11:35:54,276 [INFO] bit_common: [step 966]: loss=0.46345 (lr=7.0e-07)
+2020-11-12 11:35:54,939 [INFO] bit_common: [step 967]: loss=0.35702 (lr=7.0e-07)
+2020-11-12 11:35:55,613 [INFO] bit_common: [step 968]: loss=0.36187 (lr=7.0e-07)
+2020-11-12 11:35:56,287 [INFO] bit_common: [step 969]: loss=0.39418 (lr=7.0e-07)
+2020-11-12 11:35:56,465 [INFO] bit_common: Running validation...
+2020-11-12 11:35:59,933 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:35:59,934 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:35:59,934 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:35:59,934 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:35:59,934 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:36:03,423 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:36:05,873 [INFO] bit_common: [step 970]: loss=0.37528 (lr=7.0e-07)
+2020-11-12 11:36:06,541 [INFO] bit_common: [step 971]: loss=0.39837 (lr=7.0e-07)
+2020-11-12 11:36:07,208 [INFO] bit_common: [step 972]: loss=0.41876 (lr=7.0e-07)
+2020-11-12 11:36:07,898 [INFO] bit_common: [step 973]: loss=0.47796 (lr=7.0e-07)
+2020-11-12 11:36:08,566 [INFO] bit_common: [step 974]: loss=0.35870 (lr=7.0e-07)
+2020-11-12 11:36:09,226 [INFO] bit_common: [step 975]: loss=0.36677 (lr=7.0e-07)
+2020-11-12 11:36:09,883 [INFO] bit_common: [step 976]: loss=0.39506 (lr=7.0e-07)
+2020-11-12 11:36:10,551 [INFO] bit_common: [step 977]: loss=0.36498 (lr=7.0e-07)
+2020-11-12 11:36:11,216 [INFO] bit_common: [step 978]: loss=0.36513 (lr=7.0e-07)
+2020-11-12 11:36:11,877 [INFO] bit_common: [step 979]: loss=0.36392 (lr=7.0e-07)
+2020-11-12 11:36:12,068 [INFO] bit_common: Running validation...
+2020-11-12 11:36:15,649 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:36:15,649 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:36:15,649 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:36:15,649 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:36:15,650 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:36:18,982 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:36:21,260 [INFO] bit_common: [step 980]: loss=0.39897 (lr=7.0e-07)
+2020-11-12 11:36:21,925 [INFO] bit_common: [step 981]: loss=0.41338 (lr=7.0e-07)
+2020-11-12 11:36:22,584 [INFO] bit_common: [step 982]: loss=0.39271 (lr=7.0e-07)
+2020-11-12 11:36:23,246 [INFO] bit_common: [step 983]: loss=0.37076 (lr=7.0e-07)
+2020-11-12 11:36:23,910 [INFO] bit_common: [step 984]: loss=0.37236 (lr=7.0e-07)
+2020-11-12 11:36:24,574 [INFO] bit_common: [step 985]: loss=0.46942 (lr=7.0e-07)
+2020-11-12 11:36:25,235 [INFO] bit_common: [step 986]: loss=0.42213 (lr=7.0e-07)
+2020-11-12 11:36:25,912 [INFO] bit_common: [step 987]: loss=0.43154 (lr=7.0e-07)
+2020-11-12 11:36:26,596 [INFO] bit_common: [step 988]: loss=0.37109 (lr=7.0e-07)
+2020-11-12 11:36:27,253 [INFO] bit_common: [step 989]: loss=0.36388 (lr=7.0e-07)
+2020-11-12 11:36:27,443 [INFO] bit_common: Running validation...
+2020-11-12 11:36:30,867 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:36:30,868 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:36:30,868 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:36:30,868 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:36:30,868 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:36:34,667 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:36:37,021 [INFO] bit_common: [step 990]: loss=0.50652 (lr=7.0e-07)
+2020-11-12 11:36:37,689 [INFO] bit_common: [step 991]: loss=0.38077 (lr=7.0e-07)
+2020-11-12 11:36:38,354 [INFO] bit_common: [step 992]: loss=0.37444 (lr=7.0e-07)
+2020-11-12 11:36:39,014 [INFO] bit_common: [step 993]: loss=0.38211 (lr=7.0e-07)
+2020-11-12 11:36:39,680 [INFO] bit_common: [step 994]: loss=0.37321 (lr=7.0e-07)
+2020-11-12 11:36:40,346 [INFO] bit_common: [step 995]: loss=0.39185 (lr=7.0e-07)
+2020-11-12 11:36:41,012 [INFO] bit_common: [step 996]: loss=0.37528 (lr=7.0e-07)
+2020-11-12 11:36:41,688 [INFO] bit_common: [step 997]: loss=0.39681 (lr=7.0e-07)
+2020-11-12 11:36:42,358 [INFO] bit_common: [step 998]: loss=0.40201 (lr=7.0e-07)
+2020-11-12 11:36:43,027 [INFO] bit_common: [step 999]: loss=0.39063 (lr=7.0e-07)
+2020-11-12 11:36:43,213 [INFO] bit_common: Running validation...
+2020-11-12 11:36:46,663 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:36:46,663 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:36:46,663 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:36:46,663 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:36:46,663 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:36:50,196 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:36:52,234 [INFO] bit_common: Running validation...
+2020-11-12 11:36:55,558 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2020-11-12 11:36:55,558 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2020-11-12 11:36:55,558 [DEBUG] PIL.PngImagePlugin: STREAM b'gAMA' 54 4
+2020-11-12 11:36:55,558 [DEBUG] PIL.PngImagePlugin: STREAM b'pHYs' 70 9
+2020-11-12 11:36:55,558 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 91 65445
+2020-11-12 11:36:59,221 [INFO] bit_common: top1 95.42%, 
+2020-11-12 11:36:59,222 [INFO] bit_common: Timings:
+grads     : 0.27555s
+fprop     : 0.22635s
+eval fprop: 0.20651s
+update    : 0.18029s
+eval load : 0.11024s
+load      : 0.01837s

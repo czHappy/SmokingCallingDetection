@@ -1,0 +1,217 @@
+{"image_name": "1012.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.07911422 0.03519547 0.07884032 0.80685   ]]"}
+{"image_name": "1024.jpg", "label": "calling", "predicted:": "normal", "score": "[[0.16458802 0.64240134 0.14652045 0.04649026]]"}
+{"image_name": "104.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.10872411 0.04610894 0.05939428 0.78577274]]"}
+{"image_name": "1045.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.04554217 0.05137779 0.08790468 0.8151754 ]]"}
+{"image_name": "1053.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.11460245 0.03971672 0.07629744 0.76938343]]"}
+{"image_name": "1092.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.06265668 0.03837284 0.02936563 0.8696049 ]]"}
+{"image_name": "1098.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.11730286 0.04802284 0.2206841  0.6139902 ]]"}
+{"image_name": "1115.jpg", "label": "calling", "predicted:": "normal", "score": "[[0.1620218  0.70384926 0.08436609 0.04976283]]"}
+{"image_name": "1139.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.07682874 0.06838484 0.44119582 0.41359058]]"}
+{"image_name": "114.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.06976954 0.05132804 0.2558583  0.62304413]]"}
+{"image_name": "116.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.05839146 0.05374016 0.61311555 0.2747529 ]]"}
+{"image_name": "1217.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.041473   0.11742853 0.32628265 0.51481587]]"}
+{"image_name": "123.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.01627044 0.02669876 0.07050295 0.8865279 ]]"}
+{"image_name": "1239.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.10363077 0.03478723 0.04232179 0.81926024]]"}
+{"image_name": "1297.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.07955491 0.08307675 0.29799587 0.53937244]]"}
+{"image_name": "1304.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.04844869 0.07671784 0.41433346 0.46050006]]"}
+{"image_name": "1309.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.14261949 0.04246883 0.31419116 0.50072044]]"}
+{"image_name": "1333.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.03865369 0.10941745 0.3127068  0.5392221 ]]"}
+{"image_name": "1388.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.05207316 0.05102244 0.14212942 0.7547749 ]]"}
+{"image_name": "1407.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.16537838 0.02810234 0.13669005 0.66982925]]"}
+{"image_name": "1451.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.03534857 0.13403478 0.52151555 0.3091011 ]]"}
+{"image_name": "1455.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.10165914 0.05289575 0.46516672 0.38027838]]"}
+{"image_name": "1486.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.0389302  0.08492225 0.6194246  0.25672296]]"}
+{"image_name": "1506.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.2562669  0.03685243 0.0459525  0.6609282 ]]"}
+{"image_name": "1523.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.04474644 0.1269944  0.53281724 0.29544193]]"}
+{"image_name": "1530.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.06504569 0.03598632 0.64782757 0.25114042]]"}
+{"image_name": "1542.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.04337777 0.09338044 0.23991372 0.62332803]]"}
+{"image_name": "156.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.09981067 0.03953742 0.39260653 0.46804532]]"}
+{"image_name": "1568.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.05515626 0.08274496 0.14573245 0.7163663 ]]"}
+{"image_name": "1583.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.06112413 0.0747997  0.38814068 0.47593558]]"}
+{"image_name": "1587.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.132306   0.04343392 0.08452708 0.73973304]]"}
+{"image_name": "1617.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.05953085 0.02775114 0.03976224 0.87295574]]"}
+{"image_name": "169.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.4310744  0.01513954 0.46218196 0.09160404]]"}
+{"image_name": "17.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.09025431 0.05642784 0.1322866  0.7210312 ]]"}
+{"image_name": "175.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.08852088 0.08039891 0.2622027  0.56887746]]"}
+{"image_name": "185.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.11296333 0.04121113 0.05446124 0.79136425]]"}
+{"image_name": "192.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.35871944 0.08482739 0.07389541 0.4825578 ]]"}
+{"image_name": "2.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.04504168 0.0556155  0.7415555  0.1577873 ]]"}
+{"image_name": "23.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.07136732 0.10831267 0.5724536  0.24786639]]"}
+{"image_name": "249.jpg", "label": "calling", "predicted:": "normal", "score": "[[0.20618056 0.5779182  0.10530963 0.11059164]]"}
+{"image_name": "260.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.06596328 0.04660843 0.63909745 0.24833077]]"}
+{"image_name": "299.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.06888334 0.05817658 0.18612932 0.6868108 ]]"}
+{"image_name": "305.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.0726788  0.06658192 0.5618509  0.29888844]]"}
+{"image_name": "315.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.15280889 0.0349263  0.10510854 0.7071562 ]]"}
+{"image_name": "344.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.1141274  0.03688247 0.10538624 0.7436039 ]]"}
+{"image_name": "349.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.09815855 0.04608066 0.03832532 0.8174354 ]]"}
+{"image_name": "41.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.07528098 0.0615711  0.45641688 0.4067311 ]]"}
+{"image_name": "419.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.14291045 0.04288317 0.50047636 0.31372997]]"}
+{"image_name": "471.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.10282104 0.03648281 0.05661789 0.8040782 ]]"}
+{"image_name": "501.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.3004601  0.06412649 0.05399343 0.58142   ]]"}
+{"image_name": "509.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.09717686 0.04195058 0.14653705 0.71433544]]"}
+{"image_name": "517.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.09707186 0.06827536 0.44663292 0.38801986]]"}
+{"image_name": "553.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.27134958 0.05620822 0.1152097  0.5572325 ]]"}
+{"image_name": "569.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.05807953 0.02853469 0.13770315 0.7756826 ]]"}
+{"image_name": "57.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.03034397 0.12402736 0.35932842 0.4863003 ]]"}
+{"image_name": "577.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.0774882  0.0616966  0.16656543 0.69424975]]"}
+{"image_name": "715.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.08883116 0.03647969 0.04046956 0.8342195 ]]"}
+{"image_name": "786.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.07665212 0.2932339  0.57558286 0.05453116]]"}
+{"image_name": "8.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.43462235 0.07645387 0.04180801 0.44711575]]"}
+{"image_name": "822.jpg", "label": "calling", "predicted:": "smoking", "score": "[[0.1192444  0.04522184 0.7815579  0.05397581]]"}
+{"image_name": "864.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.018638   0.04563126 0.04015987 0.8955709 ]]"}
+{"image_name": "929.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.11925451 0.04907249 0.09098174 0.7406913 ]]"}
+{"image_name": "96.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.02353737 0.12997043 0.2592493  0.5872429 ]]"}
+{"image_name": "961.jpg", "label": "calling", "predicted:": "smoking_calling", "score": "[[0.39006534 0.04831222 0.07164666 0.48997572]]"}
+{"image_name": "1003.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.02367551 0.04766573 0.79461265 0.13404608]]"}
+{"image_name": "101.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.07153229 0.08480281 0.64204836 0.2016166 ]]"}
+{"image_name": "1020.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05027036 0.06431226 0.76871413 0.11670332]]"}
+{"image_name": "105.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.12118742 0.08377356 0.31133553 0.48370346]]"}
+{"image_name": "1060.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.0771023  0.07902665 0.678859   0.16501208]]"}
+{"image_name": "1097.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.588356   0.23733233 0.12164031 0.05267133]]"}
+{"image_name": "110.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.04133612 0.13348615 0.57678556 0.24839212]]"}
+{"image_name": "1124.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.10877873 0.09701468 0.34724572 0.44696093]]"}
+{"image_name": "1154.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.06764662 0.07657881 0.5960805  0.2596941 ]]"}
+{"image_name": "1164.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05320374 0.05850286 0.7346694  0.15362409]]"}
+{"image_name": "1203.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.0173266  0.3535042  0.58607554 0.04309361]]"}
+{"image_name": "1232.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.6929171  0.05101407 0.02835273 0.22771613]]"}
+{"image_name": "1238.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05491965 0.12508197 0.58779883 0.23219955]]"}
+{"image_name": "1280.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.5365851  0.25198802 0.10272227 0.10870466]]"}
+{"image_name": "1308.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.09950352 0.04585714 0.60884905 0.24579023]]"}
+{"image_name": "1327.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.0744962  0.09567935 0.5382887  0.29153576]]"}
+{"image_name": "1355.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.08228984 0.06615716 0.14561108 0.705942  ]]"}
+{"image_name": "1358.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.4840366  0.32064867 0.1384023  0.05691238]]"}
+{"image_name": "1361.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05632482 0.10467807 0.5843477  0.25464943]]"}
+{"image_name": "1377.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.04743207 0.12420431 0.34516624 0.4831974 ]]"}
+{"image_name": "138.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.11627436 0.14520843 0.3128637  0.42565346]]"}
+{"image_name": "1398.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.8265889  0.0420061  0.07907146 0.05233345]]"}
+{"image_name": "1403.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.04045118 0.2097716  0.37968186 0.37009534]]"}
+{"image_name": "1429.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.03015663 0.08927844 0.739303   0.1412619 ]]"}
+{"image_name": "1452.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.0744266  0.08431885 0.600078   0.2411766 ]]"}
+{"image_name": "149.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.01047002 0.20551932 0.7148439  0.06916677]]"}
+{"image_name": "1494.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.15825866 0.10022514 0.24275085 0.49876538]]"}
+{"image_name": "150.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.9132587  0.01670774 0.02908557 0.04094798]]"}
+{"image_name": "1515.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.04785686 0.14383069 0.42415413 0.3841583 ]]"}
+{"image_name": "1528.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.08484268 0.0934202  0.52607083 0.29566634]]"}
+{"image_name": "1563.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.6048503  0.21833393 0.11507595 0.06173979]]"}
+{"image_name": "1571.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.04640802 0.07716332 0.71235955 0.1640691 ]]"}
+{"image_name": "1575.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.92402035 0.01949638 0.03116694 0.02531638]]"}
+{"image_name": "1603.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.06030657 0.11750933 0.5424246  0.2797595 ]]"}
+{"image_name": "1604.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.03535022 0.04562623 0.90281767 0.01620582]]"}
+{"image_name": "1618.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.05029614 0.0939608  0.3639991  0.491744  ]]"}
+{"image_name": "1624.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.0631882  0.26074237 0.59933764 0.07673183]]"}
+{"image_name": "1628.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.05983607 0.06004452 0.10283205 0.77728736]]"}
+{"image_name": "1630.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.10594035 0.07734999 0.31257463 0.5041351 ]]"}
+{"image_name": "164.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05898182 0.0633467  0.6565337  0.22113776]]"}
+{"image_name": "1649.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.06327502 0.09802108 0.61223054 0.22647333]]"}
+{"image_name": "1669.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.07469104 0.246052   0.6156641  0.0635929 ]]"}
+{"image_name": "1671.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.13348283 0.05092576 0.64880085 0.16679057]]"}
+{"image_name": "1678.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.08087849 0.07950918 0.58567804 0.25393426]]"}
+{"image_name": "1689.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.02360909 0.3256585  0.5422542  0.10847814]]"}
+{"image_name": "1697.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.08684923 0.0751131  0.5249707  0.31306693]]"}
+{"image_name": "212.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05281413 0.07680274 0.6362831  0.23410003]]"}
+{"image_name": "231.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.1129669  0.08708774 0.4767575  0.32318786]]"}
+{"image_name": "25.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.11523496 0.08213256 0.30691966 0.49571276]]"}
+{"image_name": "250.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.5196761  0.26061592 0.15769581 0.06201213]]"}
+{"image_name": "273.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.11371439 0.10674425 0.51294774 0.26659366]]"}
+{"image_name": "292.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.07642856 0.19784188 0.49243695 0.23329261]]"}
+{"image_name": "321.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05800636 0.11599902 0.49808446 0.32791016]]"}
+{"image_name": "35.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.07575734 0.10614391 0.5921109  0.22598784]]"}
+{"image_name": "352.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.01123256 0.07831112 0.88091904 0.02953725]]"}
+{"image_name": "356.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.12598507 0.11570866 0.40767986 0.35062644]]"}
+{"image_name": "384.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.20268224 0.05323578 0.3581494  0.38593253]]"}
+{"image_name": "388.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.15009063 0.04518674 0.5065832  0.29813936]]"}
+{"image_name": "466.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.07041944 0.1677286  0.5586079  0.20324409]]"}
+{"image_name": "472.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.13595608 0.34900856 0.43712294 0.07791249]]"}
+{"image_name": "483.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.10297949 0.08263528 0.6058577  0.20852752]]"}
+{"image_name": "518.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.24468485 0.28893355 0.31969163 0.14668997]]"}
+{"image_name": "521.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.7442212  0.0957558  0.07155628 0.08846668]]"}
+{"image_name": "522.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05877209 0.16127932 0.57650024 0.20344836]]"}
+{"image_name": "541.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.09654859 0.06396086 0.48369756 0.35579303]]"}
+{"image_name": "551.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.47489285 0.33070958 0.11959179 0.0748057 ]]"}
+{"image_name": "571.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.8221825  0.04775596 0.03245521 0.09760628]]"}
+{"image_name": "572.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.0640754  0.0972791  0.680488   0.15815756]]"}
+{"image_name": "580.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.05056729 0.08677115 0.48388043 0.37878114]]"}
+{"image_name": "582.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.43479845 0.4307943  0.08069501 0.05371223]]"}
+{"image_name": "643.jpg", "label": "normal", "predicted:": "calling", "score": "[[0.6941643  0.0646833  0.03135171 0.2098007 ]]"}
+{"image_name": "677.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.01830509 0.34823647 0.5757477  0.05771073]]"}
+{"image_name": "737.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.06268697 0.14967227 0.5213655  0.2662752 ]]"}
+{"image_name": "814.jpg", "label": "normal", "predicted:": "smoking_calling", "score": "[[0.12073949 0.11479868 0.30596328 0.4584986 ]]"}
+{"image_name": "855.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.04358027 0.14623693 0.6423543  0.1678285 ]]"}
+{"image_name": "859.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.02080102 0.3791427  0.5352458  0.06481049]]"}
+{"image_name": "893.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.19828945 0.04775364 0.59320474 0.16075219]]"}
+{"image_name": "950.jpg", "label": "normal", "predicted:": "smoking", "score": "[[0.01852097 0.33053333 0.60328954 0.04765617]]"}
+{"image_name": "1042.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.07218374 0.04021854 0.31759015 0.5700075 ]]"}
+{"image_name": "1065.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06986341 0.04899068 0.27959654 0.6015493 ]]"}
+{"image_name": "1070.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06810223 0.03983093 0.03471861 0.8573483 ]]"}
+{"image_name": "1082.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06789362 0.08165684 0.2576373  0.5928122 ]]"}
+{"image_name": "1118.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.0818667  0.03720497 0.11779581 0.7631326 ]]"}
+{"image_name": "1165.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.05511864 0.04844932 0.3997671  0.4966649 ]]"}
+{"image_name": "118.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06483025 0.07422947 0.20288907 0.6580512 ]]"}
+{"image_name": "1209.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.08578556 0.03386355 0.05259933 0.82775164]]"}
+{"image_name": "1215.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.07684462 0.06635339 0.37386537 0.48293668]]"}
+{"image_name": "1225.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.0559012  0.0657931  0.13343489 0.7448708 ]]"}
+{"image_name": "1226.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.07018522 0.06983581 0.2652823  0.5946967 ]]"}
+{"image_name": "1256.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.09402652 0.03914712 0.3001585  0.56666785]]"}
+{"image_name": "1296.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.05455539 0.04528651 0.34573305 0.554425  ]]"}
+{"image_name": "1305.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.07145879 0.02958457 0.04642231 0.85253435]]"}
+{"image_name": "1320.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.0835769  0.06036035 0.16696033 0.6891024 ]]"}
+{"image_name": "1328.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.01848207 0.19613041 0.32976142 0.4556261 ]]"}
+{"image_name": "1329.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.07991609 0.05426942 0.39648634 0.46932814]]"}
+{"image_name": "1356.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06824552 0.04746742 0.41593346 0.4683537 ]]"}
+{"image_name": "1380.jpg", "label": "smoking", "predicted:": "calling", "score": "[[0.4655547  0.09568413 0.33789906 0.10086205]]"}
+{"image_name": "14.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.10810091 0.02912763 0.17754127 0.68523026]]"}
+{"image_name": "1413.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.13833086 0.02920722 0.36334813 0.46911377]]"}
+{"image_name": "1465.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.02796611 0.11709693 0.0999609  0.75497603]]"}
+{"image_name": "1466.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.13768366 0.04498279 0.25558087 0.5617526 ]]"}
+{"image_name": "1526.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.08062015 0.02286983 0.3868836  0.50962645]]"}
+{"image_name": "1580.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.08435129 0.03220331 0.08253264 0.80091274]]"}
+{"image_name": "1648.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.1003235  0.05663047 0.36261114 0.48043492]]"}
+{"image_name": "1650.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.0856932  0.03753532 0.38792586 0.48884565]]"}
+{"image_name": "1660.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.09076792 0.0892038  0.26943168 0.55059665]]"}
+{"image_name": "1670.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06958943 0.04077153 0.41570812 0.47393084]]"}
+{"image_name": "184.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06084418 0.04544794 0.41802928 0.47567865]]"}
+{"image_name": "232.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.0950252  0.0328004  0.30837637 0.56379807]]"}
+{"image_name": "26.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.14107215 0.03561083 0.342893   0.48042408]]"}
+{"image_name": "274.jpg", "label": "smoking", "predicted:": "normal", "score": "[[0.19396064 0.4142231  0.23712972 0.15468651]]"}
+{"image_name": "279.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.02260943 0.03552314 0.28265885 0.65920854]]"}
+{"image_name": "282.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.11791946 0.11500561 0.37265036 0.39442456]]"}
+{"image_name": "322.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.09226681 0.05035159 0.23460467 0.6227769 ]]"}
+{"image_name": "346.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.0660529  0.04082984 0.43749717 0.45562008]]"}
+{"image_name": "355.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.08615097 0.04358771 0.33795226 0.53230906]]"}
+{"image_name": "363.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.05023187 0.03240363 0.32471117 0.5926533 ]]"}
+{"image_name": "401.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.07759781 0.02605153 0.05149685 0.8448539 ]]"}
+{"image_name": "411.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.08099756 0.05498749 0.38025886 0.48375607]]"}
+{"image_name": "432.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.08892213 0.04823867 0.33699745 0.5258417 ]]"}
+{"image_name": "473.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06754704 0.03888668 0.30344665 0.59011966]]"}
+{"image_name": "520.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.14506234 0.05224668 0.2829728  0.51971817]]"}
+{"image_name": "525.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.1427641  0.13819669 0.35477078 0.36426842]]"}
+{"image_name": "526.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.07609474 0.09136511 0.41194627 0.42059392]]"}
+{"image_name": "53.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.04162323 0.03073127 0.24211928 0.6855262 ]]"}
+{"image_name": "599.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06768908 0.03016345 0.05672015 0.8454272 ]]"}
+{"image_name": "67.jpg", "label": "smoking", "predicted:": "normal", "score": "[[0.32155016 0.43964985 0.20213817 0.0366618 ]]"}
+{"image_name": "692.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.04927426 0.0206071  0.03340112 0.89671755]]"}
+{"image_name": "694.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.0707462  0.10979064 0.33641976 0.48304334]]"}
+{"image_name": "708.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06281567 0.06586606 0.35332453 0.51799375]]"}
+{"image_name": "714.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.04788384 0.07464544 0.39989805 0.47757268]]"}
+{"image_name": "767.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.08831812 0.0312969  0.32313946 0.5572455 ]]"}
+{"image_name": "778.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.067809   0.05155873 0.39626226 0.48437   ]]"}
+{"image_name": "799.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.04203895 0.05008711 0.44765177 0.4602221 ]]"}
+{"image_name": "825.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06474577 0.05660009 0.35350582 0.52514833]]"}
+{"image_name": "826.jpg", "label": "smoking", "predicted:": "normal", "score": "[[0.10735986 0.7294787  0.10816261 0.05499881]]"}
+{"image_name": "827.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06373677 0.06669284 0.19972001 0.66985035]]"}
+{"image_name": "850.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.10181305 0.044779   0.39644805 0.45695996]]"}
+{"image_name": "853.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.06678097 0.05003281 0.08725044 0.79593575]]"}
+{"image_name": "934.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.02468542 0.07515156 0.27939266 0.6207703 ]]"}
+{"image_name": "941.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.04677055 0.05627637 0.07044659 0.8265065 ]]"}
+{"image_name": "973.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.04374796 0.04737465 0.3397705  0.5691069 ]]"}
+{"image_name": "985.jpg", "label": "smoking", "predicted:": "smoking_calling", "score": "[[0.07269207 0.06667301 0.27726728 0.58336765]]"}
+{"image_name": "1483.jpg", "label": "smoking_calling", "predicted:": "smoking", "score": "[[0.04443748 0.0269671  0.64580923 0.28278616]]"}
+{"image_name": "314.jpg", "label": "smoking_calling", "predicted:": "normal", "score": "[[0.08974829 0.75126594 0.02874719 0.13023855]]"}
+{"image_name": "327.jpg", "label": "smoking_calling", "predicted:": "smoking", "score": "[[0.02145056 0.02364724 0.5952926  0.35960957]]"}
+{"image_name": "379.jpg", "label": "smoking_calling", "predicted:": "smoking", "score": "[[0.02834611 0.07833514 0.47334778 0.41997096]]"}
+{"image_name": "437.jpg", "label": "smoking_calling", "predicted:": "calling", "score": "[[0.58963495 0.06545911 0.1059798  0.23892608]]"}
+{"image_name": "584.jpg", "label": "smoking_calling", "predicted:": "calling", "score": "[[0.5189431  0.08264198 0.07959747 0.31881747]]"}
+{"image_name": "630.jpg", "label": "smoking_calling", "predicted:": "calling", "score": "[[0.4701343  0.04927033 0.02838001 0.45221537]]"}
+{"image_name": "740.jpg", "label": "smoking_calling", "predicted:": "calling", "score": "[[0.5412888  0.08098164 0.09026921 0.28746036]]"}
+{"image_name": "927.jpg", "label": "smoking_calling", "predicted:": "smoking", "score": "[[0.0352045  0.04433169 0.62758976 0.292874  ]]"}
+{"image_name": "986.jpg", "label": "smoking_calling", "predicted:": "smoking", "score": "[[0.0135744  0.04207715 0.9165394  0.02780919]]"}

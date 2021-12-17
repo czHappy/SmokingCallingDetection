@@ -1,0 +1,5 @@
+### Dealing with errors.
+> ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+
+- Reason: 由于在docker镜像中默认限制了shm（shared memory）,然而数据处理时pythorch则使用了shm。这就导致了在运行多线程时会将超出限制的DataLoader并直接被kill掉。dataloader从RAM中找本轮迭代要用的batch，如果找到了就使用。如果没找到，就要num_worker个worker继续加载batch到内存，直到dataloader在RAM中找到目标batch。num_worker设置得大，好处是寻batch速度快，因为下一轮迭代的batch很可能在上一轮/上上一轮迭代时已经加载好了。坏处是内存开销大，也加重了CPU负担（worker加载数据到RAM的进程是CPU复制的嘛）。num_workers的经验设置值是自己电脑/服务器的CPU核心数，如果CPU很强、RAM也很充足，就可以设置得更大些。([参考])[https://link.zhihu.com/?target=https%3A//www.cnblogs.com/hesse-summer/p/11343870.html]
+
